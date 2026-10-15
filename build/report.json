@@ -1,0 +1,299 @@
+[
+  {
+    "file": "01-what-is-redbelly-landscape.png",
+    "viewWidth": 640,
+    "minPhonePx": 16.333333333333332,
+    "minBodyPhonePx": 16.333333333333332,
+    "logoPhonePx": 29.333333333333332,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "02-why-tokenise-landscape.png",
+    "viewWidth": 640,
+    "minPhonePx": 16.333333333333332,
+    "minBodyPhonePx": 16.333333333333332,
+    "logoPhonePx": 29.333333333333332,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "03-dbft-consensus-landscape.png",
+    "viewWidth": 640,
+    "minPhonePx": 16.333333333333332,
+    "minBodyPhonePx": 16.333333333333332,
+    "logoPhonePx": 29.333333333333332,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "04-receptor-landscape.png",
+    "viewWidth": 640,
+    "minPhonePx": 16.333333333333332,
+    "minBodyPhonePx": 16.333333333333332,
+    "logoPhonePx": 29.333333333333332,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "05-verifiable-credentials-landscape.png",
+    "viewWidth": 640,
+    "minPhonePx": 16.333333333333332,
+    "minBodyPhonePx": 16.333333333333332,
+    "logoPhonePx": 29.333333333333332,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "06-zk-proofs-landscape.png",
+    "viewWidth": 640,
+    "minPhonePx": 16.333333333333332,
+    "minBodyPhonePx": 16.333333333333332,
+    "logoPhonePx": 29.333333333333332,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "07-tokeniser-landscape.png",
+    "viewWidth": 640,
+    "minPhonePx": 16.333333333333332,
+    "minBodyPhonePx": 16.333333333333332,
+    "logoPhonePx": 29.333333333333332,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "08-compliance-aware-assets-landscape.png",
+    "viewWidth": 640,
+    "minPhonePx": 16.333333333333332,
+    "minBodyPhonePx": 16.333333333333332,
+    "logoPhonePx": 29.333333333333332,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "09-identity-and-accountability-landscape.png",
+    "viewWidth": 640,
+    "minPhonePx": 16.333333333333332,
+    "minBodyPhonePx": 16.333333333333332,
+    "logoPhonePx": 29.333333333333332,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "10-governance-landscape.png",
+    "viewWidth": 640,
+    "minPhonePx": 16.333333333333332,
+    "minBodyPhonePx": 16.333333333333332,
+    "logoPhonePx": 29.333333333333332,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "11-project-acacia-landscape.png",
+    "viewWidth": 640,
+    "minPhonePx": 16.333333333333332,
+    "minBodyPhonePx": 16.333333333333332,
+    "logoPhonePx": 29.333333333333332,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "01-what-is-redbelly-portrait.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "02-why-tokenise-portrait.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "03-dbft-consensus-portrait.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "04-receptor-portrait.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "05-verifiable-credentials-portrait.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "06-zk-proofs-portrait.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "07-tokeniser-portrait.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "08-compliance-aware-assets-portrait.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "09-identity-and-accountability-portrait.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "10-governance-portrait.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "11-project-acacia-portrait.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "01-what-is-redbelly-square.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "02-why-tokenise-square.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "03-dbft-consensus-square.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "04-receptor-square.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "05-verifiable-credentials-square.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "06-zk-proofs-square.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "07-tokeniser-square.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "08-compliance-aware-assets-square.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "09-identity-and-accountability-square.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "10-governance-square.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  },
+  {
+    "file": "11-project-acacia-square.png",
+    "viewWidth": 390,
+    "minPhonePx": 16.25,
+    "minBodyPhonePx": 16.25,
+    "logoPhonePx": 28.88888888888889,
+    "overflow": [],
+    "missingText": []
+  }
+]

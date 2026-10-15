@@ -1,0 +1,42 @@
+Redbelly Network
+Governance
+New proposal
+Overview
+Proposals
+41
+Members
+162
+Wallet safety
+
+Nothing is open for voting.
+
+One person, one vote
+Every address here clears Redbelly’s passport-backed identity check.
+Connect wallet
+New proposal
+Publishing signs a message. It costs no gas, and a proposal cannot be edited once it is open — preview it first.
+Title
+Description
+Choices
+Add choice
+Voting system
+Single choice
+
+Each voter picks one option. Voting power goes to that option.
+
+Voting power
+RBNT balance
+
+Voting power equals the native RBNT held at the snapshot block.
+
+Verified wallets only
+
+Only wallets holding a Receptor credential can vote, as Redbelly requires one for network access. Voting power is still measured by the strategy above.
+
+Voting period (days)
+Quorum (0 for none)
+Identity quorum (0 for none)
+
+Distinct verified voters who must take part, however much weight they carry. A power quorum can be met by one large holder alone; this cannot.
+
+Connect wallet

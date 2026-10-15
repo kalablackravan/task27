@@ -1,0 +1,136 @@
+Asset Tokenisation
+Resources
+Resources
+Developer Tools
+Blog
+Research
+Whitepaper
+AMA
+Project Acacia
+Community
+Community
+Community
+Events
+Grant Program
+Company
+Company
+
+GET IN TOUCH
+
+About Us
+Team
+Contact Us
+Ecosystem
+Join Mainnet
+Redbelly Project Acacia
+Redbelly Network Selected for the Reserve Bank of Australia's Project Acacia
+
+We are proud to announce that Redbelly Network has been selected for The Reserve Bank of Australia's (RBA) latest tokenization pilot, Project Acacia, as part of the NotCentralised securitization use-case proposal. This opportunity represents the culmination of years of research and marks the first time a public blockchain will host a central bank digital currency (CBDC).
+
+The RBA's selection of the securitization use case developed by NotCentralised reimagines how construction invoices can be funded. The project will demonstrate how builders and subcontractors can receive payment faster while giving institutional investors access to a new asset class with automated compliance and transparent risk profiles.
+
+It's particularly fitting that this pilot pairs Australian-built technology with Australian problems. Developed at the University of Sydney and CSIRO, Redbelly Network's homegrown blockchain will tackle some of the challenges thousands of Aussie trades and construction businesses face daily. This collaboration between the RBA, NotCentralised, and Redbelly showcases how local innovation can create practical solutions for our economy.
+
+The pilot brings together a consortium of leading financial institutions and technology providers, including ANZ Bank, Australian Bond Exchange, AMAL Trustees, PAID, NotCentralised and Fireblocks, each contributing essential infrastructure to demonstrate how tokenization can transform traditional finance.
+
+Background on Project Acacia
+
+Project Acacia represents the Reserve Bank of Australia's latest step in exploring how digital technologies can transform wholesale financial markets. Unlike previous RBA initiatives that focused specifically on central bank digital currencies (CBDCs), Project Acacia has a broader scope: investigating how different forms of digital money and supporting infrastructure could improve the efficiency of tokenized asset markets.
+
+The RBA's investigation into the use cases of tokenization began with a closed pilot in 2021, followed by the more extensive CBDC Pilot Project in 2022-2023. That project involved industry participants demonstrating how a CBDC could support innovative payment and settlement services.
+
+Project Acacia builds on these learnings, but shifts focus toward wholesale markets rather than retail applications. This aligns with international trends, as central banks recognize that the institutional sector may benefit most immediately from blockchain-based settlement systems.
+
+The project will examine how different forms of digital money, including CBDCs and tokenized deposits, could support the development of tokenized asset markets in Australia.
+
+What makes Project Acacia particularly significant is its practical approach. Rather than theoretical exploration, the RBA is testing actual use cases on a range of DLT platforms with real assets and money.
+
+This means that those involved in the project will be conducting live transactions using real tokenized assets and funds and transacting using real tokenized assets and AUD on Redbelly Network.
+
+Why Redbelly Makes Sense for Securitization
+
+The Redbelly Network brings specific technical advantages to Project Acacia that other blockchains simply don't offer, particularly for a central bank implementation where certainty and accountability matter most.
+
+Most blockchain systems force uncomfortable compromises. They can be fast but centralized, decentralized but slow, or secure but inflexible.
+
+Redbelly solves these problem through its Democratic Byzantine Fault Tolerant (DBFT) consensus mechanism, developed and rigorously tested at the University of Sydney. Unlike proof-of-work systems that consume massive energy or proof-of-stake systems that can concentrate power, DBFT achieves consensus through a democratic process where no single node controls the outcome. This means Redbelly maintains a single, consistent transaction record with no forking or branching, eliminating the settlement uncertainty that plagues other blockchains.
+
+What truly separates Redbelly in the CBDC context is its built-in accountability layer. While many blockchains promote anonymity as a feature, real financial systems need known participants and clear audit trails. Redbelly's approach recognizes this reality. Participants verify their identities, but their privacy remains protected through zero-knowledge proofs.
+
+This accountability framework integrates seamlessly with partners like Fireblocks' enterprise custody solutions and ANZ's digital currency infrastructure.
+
+This accountability doesn't sacrifice performance, either. Redbelly processes up to 97,500 transactions per second, handling institutional volumes without congestion while maintaining the security needed for national financial infrastructure.
+
+The Significance for Australia's Financial Ecosystem
+
+This collaboration showcases Australian innovation solving Australian problems. Redbelly Network, which was developed at the University of Sydney and CSIRO, is a part of the RBA’s, Project Acacia, to address real challenges faced by local businesses. Rather than importing solutions from overseas, this project demonstrates how homegrown technology can address specific needs in our economy while maintaining the high standards our financial system is known for.
+
+The pilot demonstrates the innovation present in Australia's financial ecosystem, bringing together established institutions like ANZ Bank and Australian Bond Exchange with global players like PAID, AMAL Trustees, and Fireblocks.
+
+What makes this particularly Australian is the focus on solving real problems faced by everyday Aussies. Construction is a cornerstone of the Australian economy, employing over one million people and contributing approximately 7.5% of GDP. Improving payment flows in this sector alone could have significant economic benefits, helping small businesses grow and reducing the billions in construction insolvencies that occur annually.
+
+The implications extend far beyond construction. Consider a regional cattle farmer who sells beef to overseas buyers but typically waits weeks for international payments to clear. This same infrastructure could tokenize those export contracts, providing immediate funding while the physical goods are in transit.
+
+Or think about independent musicians who might wait months to receive streaming royalties; their rights could be tokenized and funded instantly.
+
+For everyday Australians, this could eventually mean more efficient funds that can invest in a broader range of Australian businesses with lower overhead costs. This could mean faster home loan approvals as property transactions move to the blockchain. It could also mean more competitive banking as smaller institutions gain access to funding markets previously dominated by major banks.
+
+This is a practical investment in financial infrastructure designed to improve outcomes for both Australian businesses and the consumers they serve
+
+What's Next
+
+With Redbelly Network as a selected blockchain infrastructure for Project Acacia, the path forward is clear. The pilot implementation is scheduled to commence immediately, with development and testing running from July through October 2025.
+
+During this period, all consortium partners, including NotCentralised, ANZ Bank, Australian Bond Exchange, AMAL Trustees, PAID, and Fireblocks, will work collaboratively to implement the complete securitization flow from invoice origination to final payment settlement. The RBA will mint a limited amount of wholesale CBDC directly onto the Redbelly mainnet, allowing for real-money testing of the entire process. This marks a historic moment as the first instance of a central bank issuing digital currency on a public blockchain network.
+
+Once the pilot concludes, we can expect a second major announcement detailing the results and lessons learned. This final report will provide valuable insights into the practical benefits, challenges, and potential for broader application of blockchain technology in the global financial markets.
+
+Redbelly Network is fully committed to ensuring the pilot's success, working closely with the RBA, and all other participants throughout the implementation. This collaborative effort represents a turning point in moving towards tokenizing assets for greater efficiency, transparency, and inclusion. The knowledge gained will inform future initiatives and establish Australia as a leader in the tokenization space.    
+
+Press Release   Project Acacia Partners   FAQs
+
+FIND US ON
+FOLLOW US
+JOIN COMMUNITY
+RESOURCES
+Vine Developer Portal
+Blog
+Research Hub
+Whitepaper
+AMA
+Project Acacia
+COMMUNITY
+Community
+Events
+Grant Program
+Bug Bounty Program
+COMPANY
+About Us
+Team
+Contact Us
+GENERAL
+Privacy Policy
+Terms and Conditions
+Brand Kit
+Disclaimer
+LOCATIONS
+Redbelly Network Pty Ltd
+Australia
+304/74 Pitt St. Sydney
+NSW 2000, Australia
+India
+2nd floor, Plot 14,
+IT park Chandigarh, sector 13, Chandigarh, India
+© REDBELLY NETWORK 2026
+COOKIE SETTINGS
+Back to top
+
+PRIVACY
+
+We use cookies
+
+We use cookies to run Redbelly Network securely and — with your permission — for analytics and marketing. You can Accept all, Reject all, or choose categories. See our Privacy Policy.
+
+Accept all
+Reject all
+Manage preferences

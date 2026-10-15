@@ -1,0 +1,242 @@
+khalid maina
+Subscribe
+Sign in
+Discover more from khalid maina
+i am fuunn
+Subscribe
+By subscribing, you agree to Substack's Terms of Use, and acknowledge its Information Collection Notice and Privacy Policy.
+Already have an account? Sign in
+Redbelly Network and the RBA's Project Acacia
+A Technical and Institutional Analysis of Redbelly's Role in Australia's Wholesale CBDC Pilot
+KHALID MAINA
+JUN 21, 2026
+Share
+Executive Summary
+
+In July 2025 the Reserve Bank of Australia (RBA) and the Digital Finance Cooperative Research Centre (DFCRC) selected Redbelly Network as one of fourteen lead participants in Phase 2 of Project Acacia, a real-money pilot examining how tokenised money and assets could improve Australia’s wholesale financial markets (RBA, 2025a). Of the three platforms onto which the RBA actually issued its pilot wholesale central bank digital currency (wCBDC), Redbelly was the only one built on public, generally accessible infrastructure; the other two, AP+’s HashSphere and Canvas Connect, are private, single-operator networks (RBA & DFCRC, 2026). Four lead participants, Australian Bond Exchange (ABE), Fireblocks, NotCentralised, and Macropod, used Redbelly’s mainnet across five of the twenty completed use cases.
+
+This report evaluates why Redbelly was selected and how its architecture compares with the alternative platforms used in the pilot. It applies a weighted scoring methodology across five criteria, finality, throughput, identity and compliance, architecture and security, and regulatory alignment, and finds Redbelly the strongest composite performer among the public and quasi-public options tested, with a deliberately discounted architecture score reflecting a real, RBA-acknowledged limitation: Redbelly’s validator set is smaller and less distributed than Ethereum’s or the XRP Ledger’s (RBA & DFCRC, 2026). The report also sets out the regulatory basis for the pilot, compares it with parallel initiatives in the European Union, Singapore, and the United Kingdom, and reviews what the RBA’s May 2026 Final Report recommends for the next phase of Australian tokenisation policy.
+
+Thanks for reading! Subscribe for free to receive new posts and support my work.
+
+Subscribe
+
+The pilot itself was small: AU$4.4 million in total wCBDC issuance, with individual transactions up to AU$250,000 (RBA & DFCRC, 2026). Its significance is not transaction volume but precedent. The RBA confirmed that a publicly verifiable blockchain can host a direct, legally enforceable claim on the central bank without compromising the RBA’s exclusive control over issuance, redemption, and participant eligibility. The Final Report’s headline economic estimate, that tokenisation could generate approximately AU$24 billion a year in efficiency gains across better markets, payments, and assets, is a broader, more fully modelled estimate than the AU$19 billion figure floated when participants were announced in July 2025; the earlier figure covered only markets and cross-border payments, while the AU$24 billion figure adds a third category, Better Assets (AU$6 billion), to the original two (AU$10 billion from Better Markets, AU$8 billion from Better Payments), so the increase reflects expanded scope, not a revision of the same number, (ASIC, 2025a; DFCRC, 2026); the RBA cautions separately that under current adoption trends the realised gain is likely closer to AU$1 billion a year (RBA & DFCRC, 2026). This report aims to give a central bank technology officer, platform architect, or institutional investor a clear, source-checked basis for evaluating Redbelly’s claims rather than a restatement of the company’s own marketing.
+
+1. Introduction and Macroeconomic Context
+1.1 From retail CBDC to wholesale tokenised infrastructure
+
+Most public debate about central bank digital currencies concerns retail CBDC: a digital form of national currency available to ordinary citizens, which raises immediate questions about privacy and bank disintermediation. Wholesale CBDC is a different instrument entirely. It does not touch consumer wallets; it upgrades the settlement layer between regulated financial institutions, the infrastructure through which central bank reserves move, securities trade against payment, and net obligations are resolved. Globally, central bank research has shifted toward wholesale applications precisely because the efficiency case is demonstrable in a closed, already-supervised environment, without the political and privacy complications of a retail product.
+
+1.2 The coordination problem tokenisation addresses
+
+A corporate bond trade in Australia can be agreed on a screen in seconds, yet take two to four business days to settle, because the asset record, the payment instruction, and the legal documentation typically live on different systems operated by different institutions. Tokenisation’s core proposition is to place the asset and the means of payment on the same programmable ledger, so that a single atomic transaction can exchange both simultaneously, removing the multi-day reconciliation chain rather than merely speeding it up. Project Acacia tested this proposition with real money, across twenty completed use cases spanning fixed income, managed investment schemes, repurchase agreements, structured products, carbon credits, and trade receivables, using six different distributed ledger technology (DLT) platforms (RBA & DFCRC, 2026).
+
+1.3 Project Acacia: structure and scale
+
+Project Acacia ran in two phases. Phase 1, completed in 2024, was conceptual: it mapped the space of possible settlement models for tokenised assets and digital money (RBA, 2024). Phase 2, the experimental phase examined in this report, ran from July 2025 (when participants were announced) through February 2026, conditionally selecting 24 use cases from roughly 50 proposals (RBA & DFCRC, 2026). Twenty use cases reached completion: twelve as live pilots settling real money and real assets, and eight as proofs of concept using simulated transactions. Fourteen organisations led these use cases, ranging from three of Australia’s four largest banks to specialist fintechs. The project was overseen by a Steering Committee drawn from the RBA, DFCRC, ASIC, the Australian Prudential Regulation Authority (APRA), and the Treasury, with ASIC granting time-limited regulatory relief and AUSTRAC granting parallel exemptions under anti-money-laundering law to make real-money testing possible (RBA & DFCRC, 2026).
+
+Settlement across the twenty use cases drew on a deliberately wide set of money forms: existing RBA exchange settlement account (ESA) balances, commercial bank deposit tokens, privately issued AUD stablecoins, and a purpose-built pilot wCBDC. The pilot wCBDC represented a real, legally enforceable claim on the RBA, issued under a deed poll obliging the RBA to redeem it at par at the project’s conclusion, and restricted to wholesale investors that were Australian residents or Australian-incorporated entities (RBA & DFCRC, 2026). Total pilot wCBDC issuance across the project was AU$4.4 million, with individual transaction values reaching AU$250,000 (RBA & DFCRC, 2026).
+
+2. Evaluation Methodology
+
+This report implements a structured, weighted scoring methodology to evaluate distributed ledger technology (DLT) architectures against the strict operational and risk requirements of regulated wholesale financial market infrastructure. Platforms are scored from 1 to 10 across five core dimensions, then combined using a fixed weighting formula calibrated to systemic risk mitigation as defined by the CPMI-IOSCO Principles for Financial Market Infrastructures (BIS, 2012).
+
+The composite scoring formula is defined as:
+
+Composite = (Finality x 0.30) + (Throughput x 0.25) + (Identity x 0.20) + (Architecture x 0.15) + (Regulatory x 0.10)
+
+2.1 Rationale for Weighting Allocations in CBDC Infrastructure
+
+The weight assigned to each criterion reflects a risk-priority hierarchy specifically calibrated for Central Bank Digital Currency (CBDC) infrastructure, where the ledger must safely host a direct, risk-free legal liability of the sovereign state.
+
+Finality Type (30% Allocation): Assigned the highest weight because under CPMI-IOSCO Principle 8, wholesale financial market infrastructures must deliver absolute, irrevocable settlement finality (BIS, 2012). A wholesale CBDC represents an immediate claim on central bank reserves; therefore, settlement cannot be subject to any mathematical probability of reversal or chain rollbacks (probabilistic finality). If a transaction could be undone, it would disrupt central bank balance sheet accounting and destroy the risk-free asset status of sovereign money. Absolute deterministic finality is a non-negotiable gateway requirement for CBDC infrastructure, making it the highest-weighted priority.
+
+Throughput and Latency (25% Allocation): Calibrated to address systemic operational risk under PFMI Principle 17 (BIS, 2012). Wholesale CBDC infrastructure acts as the foundational clearing layer for high-value financial markets (corporate bonds, asset-backed securities, and repos). During periods of intense market stress, transaction volumes spike exponentially. The infrastructure must possess massive scalability headroom and ultra-low latency to process these peak systemic loads instantly, preventing catastrophic liquidity blockages in the national payment system.
+
+Native Identity and Compliance (20% Allocation): A sovereign central bank cannot allow anonymous, pseudonymous, or unverified entities to hold or exchange its liabilities on a distributed network. Access to wholesale CBDC must be strictly restricted to eligible financial institutions that clear continuous anti-money laundering (AML) and counter-terrorism financing (CTF) checks. Gating identity directly at the base protocol execution layer, rather than relying on fragile application-layer patches, minimizes operational risk and ensures continuous compliance with national statutory requirements.
+
+Architecture and Security (15% Allocation): This measures structural consensus fault tolerance and validator node distribution. For critical sovereign infrastructure, central banks must evaluate the decentralization profile of the node set. A highly concentrated or single-operator network introduces elevated governance, coordination, and single-point-of-failure risks that counterparty risk officers must score independently, even if the underlying cryptography is mathematically sound.
+
+Regulatory Alignment (10% Allocation): This measures immediate compatibility with domestic clearing facilities and central bank licensing frameworks. It receives the lowest relative weight because any DLT platform being actively considered for a central bank pilot has already cleared an initial regulatory baseline simply to be eligible for selection in the first place, making it a marginal rather than defining differentiator in the comparison set.
+
+3. Redbelly Network: Technical Architecture
+3.1 Origins
+
+Redbelly’s core consensus algorithm originates in academic research at the University of Sydney’s Concurrent Systems Research Group, in partnership with CSIRO’s Data61, Australia’s national digital research agency. Vincent Gramoli, the network’s founder and CTO and a full professor of computer science at the University of Sydney, co-developed Democratic Byzantine Fault Tolerance (DBFT) and published it at the 17th IEEE International Symposium on Network Computing and Applications, with a follow-up system paper, “Red Belly: A Secure, Fair and Scalable Open Blockchain,” at the 42nd IEEE Symposium on Security and Privacy (Crain et al., 2018; Crain et al., 2021). The underlying invention is patented in the United States as Patent No. 12,093,247, assigned to Redbelly Blockchain Holdings Pty Ltd with Gramoli among the named inventors (US Patent No. 12,093,247, 2024). The network was commercialised in 2021 and launched its mainnet in 2024.
+
+3.2 Democratic Byzantine Fault Tolerance
+
+Most Byzantine fault-tolerant consensus algorithms rely on a rotating leader node that proposes each block. A leader creates a performance bottleneck, a concentrated attack target, and a window in which the leader can reorder or front-run pending transactions. DBFT removes the leader: any participant can propose a transaction, and validator nodes reach consensus collaboratively rather than by ratifying one proposer’s block. Three properties follow directly from this design. Forking is structurally impossible, since there is no competing chain history to reconcile. Finality is deterministic: a confirmed transaction is immediately and permanently settled, with no probabilistic decay period. And because no single node controls transaction ordering, the structural precondition for Maximal Extractable Value (MEV) manipulation, ordering power concentrated in one party, does not exist; Redbelly additionally uses commit-reveal encryption to keep transaction contents hidden until they are finalised, preventing front-running on content as well as ordering.
+
+3.3 Performance, and a genuine limitation
+
+Chainspect’s independent benchmarking recorded a maximum single-block throughput of 97,500 transactions per second, a sustained throughput of 73,158 TPS across 100 blocks under real-world testing conditions, and a theoretical maximum of 666,970 TPS, with zero-second finality latency (Chainspect, 2026; Redbelly Network, 2025). For comparison, the ASX processes on the order of 40,000 to 60,000 equity transactions in an entire trading day, so even the sustained 73,158 TPS figure comfortably exceeds national daily equity volume within a single second. These are independently verified benchmark conditions, not current live network load; Chainspect’s real-time dashboard shows day-to-day throughput far lower, reflecting actual transaction volume rather than tested capacity.
+
+The same RBA Final Report that praises the deterministic-finality properties of the platforms used for pilot wCBDC also records a structural weakness that any objective evaluation must weigh: among the public networks used across Project Acacia, Ethereum has thousands of independent nodes and the XRP Ledger has hundreds, while Redbelly (and the private Hedera-based HashSphere instance) were comparatively less decentralised (RBA & DFCRC, 2026). This is not a defect in the DBFT algorithm itself, which is formally specified to tolerate Byzantine faults up to the standard one-third threshold regardless of validator count, but it is a genuine governance and censorship-resistance consideration: a smaller, more concentrated validator set means fewer independent parties would need to coordinate to influence network behaviour, which matters for institutions assessing platform risk independently of cryptographic soundness. Redbelly has a published decentralisation roadmap targeting the onboarding of 400 independent node operators alongside dedicated MEV-detection tooling as its first phase (Redbelly Network, 2026), but as of this report’s publication that remains a roadmap commitment rather than a completed state.
+
+3.4 Native identity: zero-knowledge compliance
+
+Redbelly embeds a compliance layer directly into its base protocol using zero-knowledge (ZK) proofs, a cryptographic technique that lets one party prove a statement is true (for example, that it holds a required licence or has passed KYC checks) without revealing the underlying data on a public ledger. A fund manager transacting with a pension fund can verify the counterparty’s eligibility cryptographically without either party’s confidential compliance documentation becoming public. Redbelly also runs a fraud-detection mechanism it calls Polygraph, which generates cryptographic proof of any attempted consensus violation, intended to be usable as evidence in legal or regulatory proceedings, and uses Ricardian contracts to bind smart-contract execution to a recognised legal agreement rather than leaving enforceability solely to the code.
+
+3.5 How atomic settlement works on Redbelly
+
+In an atomic delivery-versus-payment (DvP) transaction on Redbelly, both counterparties first present ZK-proof credentials confirming their verified eligibility; the seller’s tokenised asset is then placed into a settlement smart contract as collateral; the buyer’s payment token (whether pilot wCBDC, a deposit token, or a stablecoin) is locked into the same contract; the contract verifies asset validity, payment authenticity, and any regulatory constraints; and, in a single DBFT consensus event, the asset and the payment transfer simultaneously, an outcome that is irreversible the instant it is confirmed. Coupon and redemption logic, where applicable, executes automatically on schedule from the same contract, and the full transaction record is visible in real time on Redbelly’s public block explorer (explorer.redbelly.network), which independently exposes aggregate network activity, including cumulative transaction counts and the current validator set, for anyone to verify directly rather than relying on this report’s characterization of it.
+
+While the specific cryptographic transaction hashes for the Project Acacia pilot remain under Reserve Bank non-disclosure protocols, the underlying network state, consensus verifiability, and on-chain metrics are entirely public. Institutional observers can independently verify the network’s architectural claims via the following official block explorer endpoints:
+
+Live network metrics, smart contracts and validator Consensus:
+
+https://redbelly.routescan.io/
+
+Furthermore, the real-time TPS metrics and zero-second finality latency benchmarks cited throughout this report can be continuously verified on-chain via the independent Chainspect dashboard: https://chainspect.app/chain/redbelly.
+
+4. Project Acacia Case Studies on Redbelly
+
+Four of Project Acacia’s fourteen lead participants ran their use cases on Redbelly’s mainnet: Australian Bond Exchange, the Fireblocks-led consortium, NotCentralised, and Macropod (which led two separate use cases). This section reviews each.
+
+4.1 Australian Bond Exchange: tokenised corporate bond settlement
+
+Secondary trading of Australian corporate bonds is conventionally confirmed by voice or email and settled through custodian chains on a T+2 cycle, with coupon and redemption events requiring the paying agent to manually reconcile registry data before initiating payment. ABE tokenised a corporate bond on Redbelly’s mainnet and settled secondary trades using pilot wCBDC through atomic DvP, so the bond token and the wCBDC payment changed hands in a single irreversible transaction rather than a multi-day settlement chain. Coupon payments were automated directly from the smart contract on each coupon date (RBA & DFCRC, 2026).
+
+4.2 The Fireblocks-led consortium: end-to-end issuance, trading, and distribution
+
+Fireblocks, working with NotCentralised, Redbelly, ABE, and Fasanara Capital, built a settlement contract demonstrating the complete lifecycle of a security, issuance, trading, settlement, and distribution to commercial bank clients holding exchange settlement accounts, on a single execution layer (Fireblocks, 2025). The contract also handled the singleness-of-money problem directly: buyers and sellers holding different forms of digital money could transact through pilot wCBDC as a neutral interchange asset, with the contract mediating conversion at par. NotCentralised’s chief executive, Arturo Rodriguez, described the result as “the first end-to-end securitised flow connecting capital markets to the real world economy using blockchain rails” (Fireblocks, 2025). The RBA’s own use-case classification records this as one of only two use cases in the entire project built as a digital-native structure, meaning the blockchain record is the sole authoritative record of ownership rather than a digital twin requiring ongoing reconciliation with a traditional registry; the other digital-native use case, Macropod’s, also ran on Redbelly (RBA & DFCRC, 2026).
+
+4.3 NotCentralised: the Smart ABS Pilot
+
+Asset-backed securitisation is operationally complex even by wholesale-finance standards, typically requiring lawyers, rating agencies, trustees, servicers, and paying agents to maintain separate records that must be continuously reconciled. NotCentralised, working with Wisr Limited (ASX: WZR) and AMAL (part of IQ-EQ), structured and issued a tokenised asset-backed security on Redbelly’s mainnet, using Wisr’s AU$250 million Freedom Trust 2025-1 as a live digital twin (Redbelly Network, 2025). Zero-knowledge cryptography allowed investors to verify portfolio-level compliance and health without exposing loan-level data publicly. Redbelly’s Executive Chairman, Alan Burt, said the structure addressed “intricate payment waterfalls, inter-system reconciliations, and multi-party dependencies” that have “traditionally limited transparency and liquidity” in ABS markets (Redbelly Network, 2025). AMAL’s chief product officer, Luke Andersen, described the pilot as demonstrating “smart trusteeship,” with trustee oversight functions encoded directly into the on-chain structure rather than performed through separate manual review (Redbelly Network, 2025).
+
+4.4 Macropod: Australia’s first tokenised corporate bond, and a tokenised managed investment scheme
+
+Macropod led two of Project Acacia’s twenty completed use cases, both settled in its AUD-backed stablecoin, AUDM, on Redbelly’s mainnet.
+
+The first produced the project’s most widely cited result. Imperium Markets issued CLIFFO Series 1, Australia’s first tokenised corporate bond, on its ASIC-licensed marketplace. Barrenjoey Markets purchased the bond in the primary issuance, then executed a secondary sale to JellyC, a digital asset manager; issuance, coupon registration, and the secondary transfer completed end-to-end in under four minutes on Redbelly, a process Imperium’s chair, Rod Lewis, said would conventionally have taken up to four days (Capital Brief, 2025). Macropod’s chief executive, Drew Bradford, framed the result as proof that “tokenising bonds and settling with AUDM stablecoin in Imperium’s licenced marketplace is possible” (Capital Brief, 2025).
+
+The second was a tokenised managed investment scheme, run in partnership with TAF Capital as trustee, Tokeniser as registry provider, and Openmarkets Group handling distribution, covering the full issuance, secondary trading, and redemption lifecycle for wholesale MIS units on Redbelly (JellyC, 2026). Together with the NotCentralised ABS pilot, this use case illustrates a pattern that recurs across Redbelly’s Acacia deployments: the network functioning as the single authoritative registry for an asset class (loan-backed securities, managed fund units) that conventionally depends on a third-party administrator’s proprietary system, removing the reconciliation step rather than merely automating it.
+
+5. Comparative DLT Matrix and Scoring Analysis
+5.1 Platforms used in Project Acacia
+
+Six DLT platforms hosted use cases across Project Acacia, though only three were selected to carry the RBA’s pilot wCBDC directly (RBA & DFCRC, 2026):
+
+Redbelly’s distinguishing position is narrower than the network’s own marketing sometimes implies, and the precise framing matters: it is not “the only public blockchain in Project Acacia” (Ethereum and the XRP Ledger are also public), but it is the only platform that is both public and one of the three platforms onto which the RBA actually minted pilot wCBDC, since the other two wCBDC-eligible platforms (HashSphere and Canvas Connect) are privately operated (RBA & DFCRC, 2026). That is a real and verifiable distinction, but it is a narrower claim than “only public blockchain to host a CBDC,” and this report uses the narrower, RBA-sourced framing throughout.
+
+5.2 Weighted scoring matrix
+
+Scores of 1 to 10 are assigned per the methodology in Section 2 and weighted to produce a composite. The comparison set below uses Redbelly, the two other wCBDC-eligible platforms, and public EVM-compatible networks as a benchmark for fully permissionless infrastructure.
+
+5.3 Scoring rationale
+
+Redbelly Network, Composite Score: 9.00 Finality scores a perfect 10 because DBFT is mathematically verified to provide deterministic finality with zero possibility of forking. This formal machine-checked verification provides a higher institutional assurance ceiling than empirically observed finality. Throughput scores 9 based on the Chainspect-verified 73,158 sustained TPS; this is discounted by a single point because Project Acacia’s AU$4.4 million issuance did not stress-test this ceiling in a live financial environment. Identity scores 9 because Redbelly integrates Zero-Knowledge KYC and Polygraph fraud-accountability directly at the protocol execution layer, unlike application-layer patches. Architecture scores 7 to reflect the RBA’s explicit finding that Redbelly’s validator node count is highly concentrated compared to legacy public networks, presenting a centralisation tradeoff. Regulatory alignment scores 9 due to its direct selection by the RBA and ASIC for live wCBDC minting.
+
+AP+ HashSphere (Hedera), Composite Score: 8.10 Finality scores 9 because Hedera’s asynchronous Byzantine Fault Tolerant (aBFT) consensus delivers robust deterministic finality, scoring marginally below Redbelly only due to the lack of equivalent formal machine-checked verification for this specific private deployment. Throughput scores 8, reflecting Hedera’s throttled but highly stable enterprise performance limits. Native Identity scores 7; while HashSphere utilises strong access controls, it lacks the cryptographically portable, privacy-preserving ZK-proof layer native to Redbelly. Architecture scores 8, benefitting from Hedera’s enterprise governing council, though this score reflects a private, AP+-operated deployment rather than a decentralised public network. Regulatory alignment scores 8, anchored by AP+’s foundational role in operating Australia’s New Payments Platform (NPP).
+
+Canvas Connect, Composite Score: 7.55 Finality scores 8 for strong deterministic finality achieved through a highly controlled, single-operator consensus environment. Throughput scores 7, providing adequate capacity for specific SPV and credit use cases, but lacking the demonstrated scalability headroom required for market-wide national clearing. Native Identity scores 7, relying on traditional database access controls rather than on-chain cryptographic proofs. Architecture and Regulatory alignment both score 8; it is a highly compliant, auditable, and secure private environment, but its bespoke, purpose-built nature limits its general-purpose scalability compared to foundational Layer 1 protocols.
+
+Standard Public EVM Networks (e.g., Ethereum), Composite Score: 3.60 Finality scores 3 due to proof-of-stake Ethereum’s probabilistic finality. The roughly 15-minute window required for economic finality is categorically incompatible with the zero-latency legal certainty required for wholesale financial settlement. Throughput scores 4, as Ethereum mainnet’s base 15 to 30 TPS is entirely insufficient for institutional volumes. Native Identity scores 2 because the permissionless, pseudonymous base layer requires all compliance infrastructure to be built entirely at the application layer, multiplying audit costs. Architecture scores 6; while highly decentralised, Maximal Extractable Value (MEV) is structurally endemic to its leader-based block production, introducing unacceptable transaction ordering risks. Regulatory alignment scores 4, as the permissionless environment sits in structural tension with strict Australian institutional licensing and conduct requirements.
+
+6. Regulatory Implications and International Comparison
+6.1 The enabling instrument: ASIC’s regulatory relief
+
+Project Acacia’s real-money testing depended on time-limited regulatory relief from ASIC, formally the ASIC Corporations (Project Acacia Participation Exemption) Instrument 2025/425, registered on the Federal Register of Legislation as F2025L00831 (ASIC, 2025b). The relief exempted participants and their collaborators from financial services, financial markets, and clearing-and-settlement-facility licensing requirements that would otherwise have applied to the pilot transactions; AUSTRAC separately granted exemptions from specific provisions of the Anti-Money Laundering and Counter-Terrorism Financing Act 2006 (RBA & DFCRC, 2026). The relief was deliberately scoped to the project’s six-month testing window. Its existence establishes that ASIC will provide structured, bounded accommodation for tokenisation experiments conducted jointly with the RBA, but its time-limited design is also precisely the limitation that industry participants asked the RBA to address in any follow-on framework (RBA & DFCRC, 2026).
+
+6.2 Unresolved questions: legal settlement finality
+
+The Final Report identifies legal settlement finality on DLT as a substantive open question rather than a solved problem. Traditional securities settlement derives its legal finality from clearing and settlement systems that are explicitly recognised by statute. Whether a smart contract’s technical finality is automatically equivalent to legal finality under the Corporations Act 2001 and the Payment Systems and Netting Act 1998 has not been settled by courts or regulators, and the RBA flags this as a priority area for further legal and regulatory attention rather than a resolved feature of the pilot (RBA & DFCRC, 2026).
+
+6.3 The proposed Digital Financial Market Infrastructure sandbox
+
+The Final Report’s central forward-looking recommendation is a Digital Financial Market Infrastructure (DFMI) regulatory sandbox, to be explored jointly by the RBA, ASIC, and the DFCRC as a structured, more durable alternative to project-specific, time-bound relief instruments (RBA & DFCRC, 2026). Alongside the sandbox, the Report sets out a tokenised government bond initiative to examine issuance, trading, and lifecycle management of tokenised Australian Government Securities, an expanded Industry Advisory Group, continued work by the Deposit Token Working Group on interoperable bank deposit tokens, and RBA-led consultation on whether its own settlement infrastructure (RITS and ESA arrangements) needs to evolve to support tokenised markets directly (RBA & DFCRC, 2026). None of these are commitments to select any particular platform, including Redbelly, for future production use; they are workstreams the report names as developments worth monitoring rather than guaranteed outcomes.
+
+6.4 The economic case, stated precisely
+
+DFCRC research released alongside the Final Report estimates that tokenisation could generate approximately AU$24 billion a year in economic gains for Australia, split across three channels: AU$10 billion from better-functioning markets, AU$8 billion from better payments infrastructure, and AU$6 billion from better asset structures (DFCRC, 2026). This is a broader, more fully modelled estimate than the AU$19 billion figure floated by the DFCRC’s chief scientist when Project Acacia’s participants were announced in July 2025; that earlier figure covered only markets and cross-border payments, while the AU$24 billion figure adds a third category, Better Assets, to the original two (ASIC, 2025a). Both figures describe potential, not realised, benefit. The RBA’s own Final Report adds an important qualifier absent from most secondary coverage of this statistic: on the current adoption trajectory, where only around 4 percent of real-world assets are projected to be tokenised by 2030, the actually realised economic impact is likely closer to AU$1 billion a year of the AU$24 billion potential (RBA & DFCRC, 2026). A technology officer evaluating this report’s claims should treat AU$24 billion as a ceiling contingent on policy and adoption choices the RBA itself describes as unresolved, not as a forecast.
+
+6.5 International comparison
+
+European Union: the Markets in Crypto-Assets Regulation. MiCA, in force since December 2024, is the most comprehensive binding legislative framework for crypto-assets globally, establishing a licensing regime for crypto-asset service providers and reserve and transparency requirements for stablecoin issuers (European Parliament and Council of the European Union, 2023). Where Australia has so far relied on project-specific sandboxes and supervisory guidance, MiCA is statute. That makes the EU’s framework more durable for long-horizon infrastructure investment but materially slower to adapt; Australia’s approach is more responsive but, as Project Acacia’s participants themselves noted, less able to support multi-year commercial commitments without something like the proposed DFMI sandbox (RBA & DFCRC, 2026).
+
+Singapore: Project Guardian. The Monetary Authority of Singapore’s Project Guardian is the international precedent the RBA’s own Final Report cites most directly as a model for durable, multi-year industry-regulator collaboration in tokenised finance (Monetary Authority of Singapore, 2025). The RBA’s report explicitly names Singapore’s sustained engagement model, alongside Hong Kong’s and the United Kingdom’s, as an example of the kind of long-term coordination mechanism that Project Acacia participants asked Australian regulators to consider replicating (RBA & DFCRC, 2026).
+
+United Kingdom: The Digital Securities Sandbox and the Digital Gilt Instrument pilot. The Bank of England’s Digital Securities Sandbox (DSS) is the UK’s closest structural analogue to the proposed Australian DFMI sandbox, and the RBA’s report cites it directly as a reference model (Bank of England, n.d.). The UK Government’s parallel procurement process for a Digital Gilt Instrument (DIGIT) pilot, a tokenised UK government bond, is the most direct international parallel to the tokenised government bond initiative the RBA’s Final Report proposes for Australian Government Securities (UK Government, 2026, as cited in RBA & DFCRC, 2026). Neither programme has yet resulted in a production tokenised gilt; both remain at the pilot or procurement stage as of this report’s publication.
+
+7. Token Economics and Network Considerations.
+
+This section addresses Redbelly’s native token, RBNT, briefly and separately from the institutional analysis above, since none of the technical or regulatory findings in this report depend on it. It is provided for completeness, not as investment guidance; nothing in this section should be read as a recommendation to buy, sell, or hold RBNT, and this report’s authors are not financial advisers.
+
+RBNT, Redbelly’s gas and staking token, is required for node operators to participate in consensus (a minimum stake of 100,000 RBNT per node) and for transaction fees on the network. As of mid-June 2026, RBNT traded at approximately $0.0037, with a circulating supply of roughly 2.6 billion against a fixed total supply of 10 billion, giving a circulating market capitalisation near $9.8 million and a fully diluted valuation near $37 million (CoinGecko, 2026). Only about 26 percent of total supply is currently in circulation, which is relevant to the institutional analysis above primarily through its connection to decentralisation: a wider, more independent validator set (the explicit goal of Redbelly’s 400-node decentralisation roadmap discussed in Section 3.3) requires sufficient token distribution and staking incentive to support it, so the pace of supply unlock and the pace of node onboarding are linked considerations rather than separate stories.
+
+Beyond Project Acacia, Redbelly has reported other real-world-asset tokenisation activity on its mainnet, including approximately US$210 million in assets onboarded by Hutly and approximately US$736 million in unlisted assets tokenised by Liquidise as of Redbelly’s own January 2026 disclosures (Redbelly Network, 2026). These figures come from the network’s own reporting and have not been independently audited for this report; they are included as evidence of usage beyond the regulatory pilot, not as verified financial metrics. A detailed, separately published market and competitive briefing covers RBNT’s trading history and the relevant token-level competitive context in more depth than is appropriate here; that material is kept out of this report by design, consistent with the institutional, non-promotional scope this report maintains throughout.
+
+8. Strategic Recommendations and Conclusion
+
+For central bank technology officers. Treat deterministic finality as a non-negotiable threshold rather than one input among several; a platform without a formally verified or otherwise rigorously demonstrated finality guarantee should not be shortlisted for live settlement of central bank money, regardless of its other attributes. Require native, cryptographically portable identity rather than application-layer KYC bolted on after the fact, since the latter multiplies audit and reconciliation cost without reducing it. Treat validator or node decentralisation as a distinct, explicitly scored criterion rather than folding it into a general architecture score, since this report’s own analysis shows it can materially change a platform’s standing even where its consensus algorithm is otherwise sound.
+
+For financial institution executives. The four-minute Macropod and Imperium Markets bond settlement is a genuine, independently reported result, not a simulation, and it is reasonable grounds to question whether T+2 settlement should still be treated as a fixed constraint rather than a legacy limitation. It is not, on its own, grounds to assume any particular platform will be selected for production use; the RBA’s own Final Report explicitly frames the post-Acacia workstreams (the DFMI sandbox, the tokenised government bond initiative) as exploratory, not as commitments.
+
+For platform developers. Redbelly’s experience suggests that legal enforceability architecture, Ricardian contracts that bind code to recognised legal agreements, is as commercially important as raw technical performance, since institutions ultimately need a smart contract’s output to be enforceable in a real court under real law. The unresolved decentralisation gap identified in Section 3.3 is also a useful general lesson: regulators and institutional counterparties evaluating any public-permissioned platform should expect to ask, specifically, how many independent parties operate its validator set and how that number is changing over time.
+
+Conclusion
+
+Project Acacia did not prove that any single platform is the future of Australian wholesale settlement; it proved that several specific, previously theoretical claims now have real-money evidence behind them. Atomic settlement does eliminate multi-day settlement risk in practice, not just in principle. A public, central-bank-recognised wholesale CBDC can coexist with privately issued tokenised money on the same ledger without compromising the central bank’s exclusive control over issuance and redemption. And securitisation, fund administration, and corporate bond lifecycles can run on programmable infrastructure without sacrificing the legal protections that make those instruments trusted in the first place. Redbelly’s position within that evidence base is real but specific: it is the one public platform the RBA chose to carry its pilot digital money directly, with a formally verified finality guarantee that none of the comparison platforms in this report fully match, and a validator-decentralisation gap that the RBA itself has flagged and that Redbelly has not yet closed. Both facts belong in any institutional assessment of the network’s role in what comes after the pilot.
+
+References
+
+Australian Securities and Investments Commission. (2025a, July 10). 25-129MR Project Acacia: RBA and DFCRC announce chosen industry participants and ASIC provides regulatory relief for tokenised asset settlement research project [Media release]. https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-129mr-project-acacia-rba-and-dfcrc-announce-chosen-industry-participants-and-asic-provides-regulatory-relief-for-tokenised-asset-settlement-research-project/
+
+Australian Securities and Investments Commission. (2025b). ASIC Corporations (Project Acacia Participation Exemption) Instrument 2025/425 [F2025L00831]. Federal Register of Legislation. https://www.legislation.gov.au/F2025L00831/asmade/text
+
+Bank of England. (n.d.). Digital Securities Sandbox (DSS) [Website]. https://www.bankofengland.co.uk/financial-stability/digital-securities-sandbox
+
+Chainspect. (2026). Redbelly Network Performance Benchmarks and Live TPS Data. Independent Blockchain Analytics Registry. https://chainspect.app/chain/redbelly
+
+CoinGecko. (2026, June). Redbelly Network (RBNT) price, charts, and market capitalisation [Data set]. https://www.coingecko.com/en/coins/redbelly-network
+
+Digital Finance Cooperative Research Centre. (2025, August). Project Acacia: Summary of conditionally selected use cases. https://dfcrc.com.au/wp-content/uploads/2025/08/Project-Acacia-summary-of-use-cases.pdf
+
+Crain, T., Gramoli, V., Larrea, M., & Raynal, M. (2018). DBFT: Efficient leaderless Byzantine consensus and its application to blockchains. Proceedings of the 17th IEEE International Symposium on Network Computing and Applications. IEEE.
+
+Crain, T., Natoli, C., & Gramoli, V. (2021). Red Belly: A secure, fair and scalable open blockchain. Proceedings of the 42nd IEEE Symposium on Security and Privacy. IEEE.
+
+Digital Finance Cooperative Research Centre. (2026, March 3). Unlocking Australia’s $24 billion digital finance opportunity: The economic impact potential of digital finance innovation in Australia [Report]. https://dfcrc.com.au/wp-content/uploads/2026/03/260310_DFCRC_Economic_Impact_Report_V10_Single.pdf
+
+European Parliament and Council of the European Union. (2023). Regulation (EU) 2023/1114 on markets in crypto-assets (MiCA). Official Journal of the European Union.
+
+Fireblocks. (2025, July 9). Fireblocks joins Project Acacia to explore the role of digital money in wholesale tokenised asset markets [Press release]. PR Newswire. https://www.prnewswire.com/news-releases/fireblocks-joins-project-acacia-to-explore-the-role-of-digital-money-in-wholesale-tokenised-asset-markets-302501537.html
+
+Monetary Authority of Singapore. (2025). Project Guardian [Website]. https://www.mas.gov.sg/schemes-and-initiatives/project-guardian
+
+Redbelly Network. (2025, December 11). Tokenised asset-backed security transaction pilot launches under Project Acacia [Blog post]. https://redbelly.network/blog/tokenised-asset-backed-security-transaction-pilot-launches-under-Project-Acacia
+
+Redbelly Network. (2026, January). Redbelly Network: Year in review 2025 [Blog post]. Medium. https://medium.com/@redbellyblockchain/redbelly-network-year-in-review-2025-4cca70e3146d
+
+Reserve Bank of Australia. (2024, November). Project Acacia: Exploring the role of digital money in wholesale tokenised asset markets [Consultation paper]. https://www.rba.gov.au/payments-and-infrastructure/central-bank-digital-currency/pdf/project-acacia-consultation-paper-2024-11.pdf
+
+Reserve Bank of Australia. (2025a, July 10). Project Acacia: RBA and DFCRC announce chosen industry participants and ASIC provides regulatory relief for tokenised asset settlement research project [Media release MR-25-18]. https://www.rba.gov.au/media-releases/2025/mr-25-18.html
+
+Reserve Bank of Australia & Digital Finance Cooperative Research Centre. (2026, May). Project Acacia: Exploring the role of digital money in wholesale tokenised asset markets, Final report. https://www.rba.gov.au/payments-and-infrastructure/central-bank-digital-currency/pdf/project-acacia-final-report.pdf
+
+UK Government. (2026, February 12). Update on the procurement for Digital Gilt Instrument (DIGIT) pilot [News story]. As cited in Reserve Bank of Australia & Digital Finance Cooperative Research Centre (2026).
+
+US Patent No. 12,093,247 B2. (2024, August 6). Blockchain system and method. United States Patent and Trademark Office. https://patents.google.com/patent/US12093247B2/en
+
+JellyC. (2026, January 15). Project Acacia; tokenisation: The future of funds management [Blog post]. https://www.jellyc.io/insights/tokenisation-the-future-of-funds-management
+
+Digital Finance Cooperative Research Centre. (2025, July 10). Project Acacia: RBA and DFCRC announce chosen industry participants [Media release]. https://dfcrc.com.au/2025/07/10/projectacaciaparticipantsselected/
+
+Capital Brief. (2025, December 17). Australia’s first tokenised corporate bond issued. https://www.capitalbrief.com/briefing/australias-first-tokenised-corporate-bond-issued-554612cb-8785-4838-ac1b-db1e3290f481/
+
+Thanks for reading! Subscribe for free to receive new posts and support my work.
+
+Subscribe
+Share
+Discussion about this post
+Comments
+Restacks
+Ready for more?
+Subscribe
+© 2026 khalid maina · Privacy ∙ Terms ∙ Collection notice
+Start your Substack
+Get the app
+Substack is the home for great culture

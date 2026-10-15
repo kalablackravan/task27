@@ -1,0 +1,80 @@
+Skip to content
+Redbelly Network Technical Documentation
+Overview
+Type to start searching
+Home
+Receptor
+Onboarding and Eligibility Kit
+Onboarding and Eligibility Kit
+Introduction
+Overview
+Getting Started
+Installation
+Choosing Your Proof Method
+EligibilitySdk
+Overivew
+Supported Wallets
+Configure Eligibility Criteria
+Example
+IndividualOnboardingSDK
+Overview
+BusinessOnboardingSDK
+Overview
+API Reference
+EligibilitySdk
+IndividualOnboardingSDK
+BusinessOnboardingSDK
+Hooks
+useHasChainPermission
+useBusinessDetails
+What is the Eligibility Kit?
+How it works
+Why Choose the Eligibility Kit?
+Next Steps
+Overview¶
+
+The Eligibility Kit is a complete solution for Real-World Asset (RWA) Issuers to verify investor eligibility with privacy and security at its core. It provides a simple, drop-in React component that handles complex zero-knowledge proof interactions, allowing you to focus on your application's core features.
+
+What is the Eligibility Kit?¶
+
+The Eligibility Kit is a developer-centric toolkit for integrating privacy-preserving identity verification into your platform. It allows your users to prove they meet certain criteria (like proving their age, address, or accredited investor status) without having to reveal sensitive personal data.
+
+It consists of:
+
+A Frontend Widget: A simple, customisable React component that renders a button and handles the QR code modal for user interaction.
+
+Secure Communication Protocol: A defined communication flow between your application, the user's digital wallet, and a verifier service built using Iden3 and PrivadoID.
+
+Hooks and Utilities: React hooks to easily integrate with your application's state and logic.
+
+How it works¶
+
+The process is designed to be secure and seamless, ensuring sensitive data never leaves the user's wallet.
+
+Request: Your application uses the EligibilityWidget to request proof for a specific credential (e.g., "Prove you live outside the US").
+
+Proof Generation: The user scans a QR code with their compatible wallet. The wallet generates a cryptographic zero-knowledge proof, based on their verifiable credentials, that the user meets the eligibility criteria, without revealing the credential itself.
+
+Verification: The proof is sent to a verifier service, which checks its mathematical validity against the trusted issuer's public key.
+
+Confirmation: The SDK receives a success or failure status, which you can use to grant the user access to your platform's features.
+
+Why Choose the Eligibility Kit?¶
+
+Privacy Maximising: Users can prove their eligibility without having to upload documents or share sensitive personal information with your platform. If they are required to share some, limited PII, they can do so without having to share the full contents of their identity documents. This builds trust and reduces your data liability.
+
+Simple Integration: With a familiar React component model, you can add complex verification flows to your application in minutes, not weeks.
+
+Reduced Fraud: Zero-knowledge proofs are cryptographically secure, making them resistant to forgery and tampering in ways that traditional identity checks are not.
+
+Future-Proof: Built on open standards like W3C Verifiable Credentials and Decentralised Identifiers, ensuring your platform is ready for the next generation of digital identity.
+
+Next Steps¶
+
+Ready to see it in action? Our step-by-step Getting Started guide will walk you through performing you first eligibility check in under 15 minutes!
+
+➡️ Getting Started: Implement your first eligibility check in under 15mins	➡️ Getting Testing verifiable credentials
+➡️ Create your customised Eligibility Criteria	➡️ Using Selective Disclosure vs Zero Knowledge
+ Back to top
+© Redbelly Network 2025
+Made with Material for MkDocs

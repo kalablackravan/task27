@@ -1,0 +1,261 @@
+Asset Tokenisation
+Resources
+Resources
+Developer Tools
+Blog
+Research
+Whitepaper
+AMA
+Project Acacia
+Community
+Community
+Community
+Events
+Grant Program
+Company
+Company
+
+GET IN TOUCH
+
+About Us
+Team
+Contact Us
+Ecosystem
+Join Mainnet
+Welcome to Redbelly Network Empowering Asset Issuers to Tokenize Real-World Assets Discover Our Tokenization Solutions
+Redbelly Network
+Open Capital Markets Infrastructure
+
+Enabling asset issuers to tokenise and trade compliant onchain structured products
+
+Join Community
+Research Hub
+Learn more about Redbelly and Project Acacia
+TREASURIES & BONDS
+PRIVATE CREDIT
+CARBON CREDITS
+DERIVATIVES & COMMODITIES
+INSURANCE
+REAL ESTATE
+OUR NETWORK
+What We Offer
+ASSET TOKENISATION
+
+LEARN MORE
+
+PATENTED SCALABLE L1 PUBLIC BLOCKCHAIN
+
+LEARN MORE
+
+COMMUNITY & GRANTS
+
+COMMUNITY PAGE
+
+ABOUT REDBELLY
+Our Network
+
+Redbelly provides the infrastructure to issue, manage, and distribute regulated digital financial assets to a global investor base.
+
+A network of clean liquidity and verified participants enables structured products with clearly defined investor eligibility.
+Establish digital registries as a shared source of truth across issuers, managers, and investors.
+Create tailored investment portfolios using digitally issued financial assets.
+High performance infrastructure built for institutional scale, efficiency, and reliability.
+Access a global investor base, supporting more efficient capital formation and a lower cost of capital.
+Explore Redbelly
+The Team
+
+The Redbelly team combines deep expertise across financial services, distributed systems, and enterprise infrastructure.
+
+Executive Leaders and Advisors
+Product and Engineering
+Research and Innovation
+Growth and Community
+Meet The Team
+Vincent Gramoli
+
+Redbelly Founder & CTO
+
+Highlights
+Our Ecosystem
+Commercial Real Estate
+Explore
+0
+
+Transactions Per Second
+
+TVL
+$0
+
+as seen on rwa.io
+
+0
+
+Transactions Processed On Mainnet
+
+Verifiable Credentials
+0
+
+Nodes Running
+
+Patented Verified Compliant
+TOKENISED STRUCTURED PRODUCTS
+0
+
+Wallets Created
+
+Redbelly Partners
+Case Study
+Hutly and Redbelly partner to tokenise $1.8B of rent rolls.
+Redbelly Roadmap
+Horizon 1
+Horizon 1
+Horizon 1
+Horizon 1
+Horizon 2
+Horizon 2
+Horizon 3
+Horizon 3
+Horizon 3
+Horizon 3
+Horizon 3
+Horizon 3
+Horizon 3
+Horizon 4
+Horizon 4
+Horizon 4
+Growth
+
+Increase number of nodes to Mainnet, including external governors
+
+Accountability
+
+Enhance the accountability of the network through algorithmic means
+
+Nodes
+
+We integrate Redbelly node operator deployment to a cloud marketplace
+
+Innovation
+
+Establish & launch Redbelly Improvement Proposal (RBIP) Process to community contributions
+
+Nodes
+
+40 nodes are controlled by institutions (33 of which are governors)
+
+Staking
+
+Implement staking to secure the network
+Offer re-staking and delegated staking and receive an APY
+
+Nodes
+
+Scale to 600 nodes on Mainnet with 500 candidates and 100 governors
+
+Staking
+
+Nodes can use delegated staking
+
+On-Chain Policy
+
+Offer programmable, on chain policy tools for RWA Issuers to reduce cost and risk
+
+Increase Decentralisation
+
+Phased decentralisation of governance through the introduction of independent governors and broader ecosystem representation
+
+Bitcoin Collateral
+
+Native BTC bridging for collateral and liquidity in our programmable capital market
+
+Privacy Vault For RWA Issuers
+
+RWA Issuers can build private balances and transactions into their use cases
+
+API Connectivity
+
+Easy API connectivity to smart contracts for RWA Issuers
+
+Issuer Governance
+
+Implementation of accredited issuer governance to open up the network to additional accredited issuers
+
+Decentralisation Governance
+
+Implementation of the RBN Governance DAO to enable community-led decision making over time
+
+Data Sharding
+
+Further network scalability enhancements through data sharding
+
+News and Updates
+
+Read our latest news, insights, and updates from Our Network.
+
+Redbelly's new CEO is a payments pioneer betting on regulated tokenisation
+
+Read More
+Project Acacia
+AMAL
+NotCentralised
+RBA
+Redbelly Network
+
+Tokenised asset-backed security transaction pilot launches under Project Acacia
+
+Read More
+Accountability
+Blockchain
+Redbelly Network
+RWA
+
+Staying in Step with Ethereum: Redbelly’s Compatibility Process
+ 
+
+Read More
+View All Updates
+FIND US ON
+FOLLOW US
+JOIN COMMUNITY
+RESOURCES
+Vine Developer Portal
+Blog
+Research Hub
+Whitepaper
+AMA
+Project Acacia
+COMMUNITY
+Community
+Events
+Grant Program
+Bug Bounty Program
+COMPANY
+About Us
+Team
+Contact Us
+GENERAL
+Privacy Policy
+Terms and Conditions
+Brand Kit
+Disclaimer
+LOCATIONS
+Redbelly Network Pty Ltd
+Australia
+304/74 Pitt St. Sydney
+NSW 2000, Australia
+India
+2nd floor, Plot 14,
+IT park Chandigarh, sector 13, Chandigarh, India
+© REDBELLY NETWORK 2026
+COOKIE SETTINGS
+Back to top
+
+PRIVACY
+
+We use cookies
+
+We use cookies to run Redbelly Network securely and — with your permission — for analytics and marketing. You can Accept all, Reject all, or choose categories. See our Privacy Policy.
+
+Accept all
+Reject all
+Manage preferences

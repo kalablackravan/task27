@@ -1,0 +1,110 @@
+Asset Tokenisation
+Resources
+Resources
+Developer Tools
+Blog
+Research
+Whitepaper
+AMA
+Project Acacia
+Community
+Community
+Community
+Events
+Grant Program
+Company
+Company
+
+GET IN TOUCH
+
+About Us
+Team
+Contact Us
+Ecosystem
+Join Mainnet
+Frequently Asked Questions
+What is Project Acacia?
+
+Project Acacia is a research initiative led by the Reserve Bank of Australia (RBA) and the Digital Finance Cooperative Research Centre (DFCRC). Its goal is to explore how different forms of digital money and supporting infrastructure could help develop wholesale tokenised asset markets in Australia.
+
+Is Redbelly Network partnering with the RBA?
+
+No. Redbelly’s use case has been conditionally selected for the next stage of Project Acacia. This does not represent a partnership, endorsement, or approval by the RBA or DFCRC. Our participation is part of a structured research process, subject to specific conditions.
+
+Is Project Acacia a CBDC project?
+
+No. Project Acacia is not focused on central bank digital currencies (CBDCs). It is a research effort designed to examine the trade-offs of different digital settlement models, including those involving tokenised assets.
+
+Does Redbelly’s participation mean your technology has been approved by regulators?
+
+No. Redbelly’s inclusion in the research phase does not imply validation or approval of its technology by the RBA, DFCRC, or any other regulator. The project is experimental in nature.
+
+Will participants in Project Acacia receive special regulatory treatment?
+
+No. Any regulatory relief granted applies only within the controlled environment of the project. It does not extend beyond the research and does not exempt any organisation from existing licensing or compliance obligations outside of the project.
+
+Could Redbelly avoid needing a license because of this project?
+
+No. Project Acacia does not remove or replace the need for proper licences, authorisations, or approvals. All regulatory requirements remain fully in effect outside the scope of the research.
+
+Is the RBA planning to change financial regulations based on this project?
+
+Not directly. Project Acacia is designed to inform future conversations by providing insight into technical and operational issues. It is not a mechanism for proposing or implementing regulatory changes.
+
+Why is Fireblocks involved?
+
+Fireblocks is providing custody technology to support Redbelly’s tokenised asset use case. Like Redbelly, Fireblocks is contributing to this research phase and is not endorsed or approved by the RBA or DFCRC.
+
+Will we see tokenised government bonds or carbon credits issued?
+
+Project Acacia explores potential applications through simulated or controlled environments. These are not commercial product offerings, and any activity remains within a research-only framework.
+
+Can I invest in Redbelly because of Project Acacia?
+
+Redbelly’s involvement in Project Acacia should not be interpreted as investment advice or a regulatory signal. As always, we recommend performing independent due diligence before making any investment decisions.
+
+FIND US ON
+FOLLOW US
+JOIN COMMUNITY
+RESOURCES
+Vine Developer Portal
+Blog
+Research Hub
+Whitepaper
+AMA
+Project Acacia
+COMMUNITY
+Community
+Events
+Grant Program
+Bug Bounty Program
+COMPANY
+About Us
+Team
+Contact Us
+GENERAL
+Privacy Policy
+Terms and Conditions
+Brand Kit
+Disclaimer
+LOCATIONS
+Redbelly Network Pty Ltd
+Australia
+304/74 Pitt St. Sydney
+NSW 2000, Australia
+India
+2nd floor, Plot 14,
+IT park Chandigarh, sector 13, Chandigarh, India
+© REDBELLY NETWORK 2026
+COOKIE SETTINGS
+Back to top
+
+PRIVACY
+
+We use cookies
+
+We use cookies to run Redbelly Network securely and — with your permission — for analytics and marketing. You can Accept all, Reject all, or choose categories. See our Privacy Policy.
+
+Accept all
+Reject all
+Manage preferences

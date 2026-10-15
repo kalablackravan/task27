@@ -1,0 +1,614 @@
+Redbelly Network
+Governance
+New proposal
+Overview
+Proposals
+41
+Members
+162
+Wallet safety
+
+Nothing is open for voting.
+
+One person, one vote
+Every address here clears Redbelly’s passport-backed identity check.
+Connect wallet
+Proposals
+Signature voting on Redbelly. No gas, no subscription.
+New proposal
+All
+41
+Active
+0
+Upcoming
+0
+Closed
+41
+Any outcome
+Newest
+Proposal Resubmission Policy
+Passed
+#f832b
+0x6a24...D7cb
+·
+8d ago
+Yes
+100%
+
+9 votes
+
+Proposal Withdrawal Policy
+Passed
+#2a9b3
+0x6a24...D7cb
+·
+8d ago
+Yes
+100%
+
+8 votes
+
+Redbelly DAO website: which finalist should we ship?
+https://redbelly-dao.vercel.app/
+#3ef19
+Berlin
+·
+1mo ago
+https://redbelly-dao.vercel.app/
+83%
+https://redbellydao.netlify.app/
+17%
+
+24 votes
+
+Signalling: should Redbelly DAO count people as well as tokens?
+Passed
+#1a8c5
+Jhon wick
+·
+1mo ago
+Yes — keep showing both counts
+100%
+
+4 votes
+
+TEST - DAO High Council election (Approval, one vote per person)
+No quorum
+#0cd19
+Jhon wick
+·
+1mo ago
+Aurel
+50%
+Corvid
+33%
++4 more
+
+6 votes
+
+TEST PROPOSAL - ONE PERSON ONE VOTE
+Passed
+#13eeb
+0x6a24...D7cb
+·
+1mo ago
+Yes
+58%
+No
+33%
++1 more
+
+12 votes
+
+TEST PROPOSAL - WEIGHTED
+Passed
+#59113
+0x6a24...D7cb
+·
+1mo ago
+Yes
+87%
+No
+13%
+
+8 votes
+
+TEST PROPOSAL - QUADRATIC VOTING
+Passed
+#9ae78
+0x6a24...D7cb
+·
+1mo ago
+Yes
+63%
+Abstain
+26%
++1 more
+
+7 votes
+
+TEST PROPOSAL - QUADRATIC VOTING
+Rejected
+#323db
+0x6a24...D7cb
+·
+1mo ago
+No
+57%
+Yes
+23%
++1 more
+
+7 votes
+
+TEST PROPOSAL 1 - single choice
+Passed
+#7b49e
+0x6a24...D7cb
+·
+1mo ago
+Yes
+88%
+Abstain
+12%
+
+9 votes
+
+Treasury Multi-sig and Non Cost Proposals Constitutional Ratification
+Passed
+#56b10
+0x6a24...D7cb
+·
+1mo ago
+·
+imported
+For
+100%
+
+18 votes
+
+High Council Elections
+Buffy
+#01031
+0x6a24...D7cb
+·
+2mo ago
+·
+imported
+Buffy
+33%
+NekoyaManeki
+27%
++4 more
+
+27 votes
+
+Amendment to Leadership Structure
+Passed
+#0f5b5
+0x6a24...D7cb
+·
+2mo ago
+·
+imported
+For
+97%
+Against
+3%
+
+23 votes
+
+DAO Proposal: Increase Governance Accessibility and Protect Contributor Privacy
+Passed
+#a57cc
+0xA481...CdE1
+·
+3mo ago
+·
+imported
+For
+54%
+Against
+38%
++1 more
+
+13 votes
+
+Redbelly DAO Discord Bot Development, Hosting & Community Management
+Passed
+#bfc45
+0xB80e...e7Aa
+·
+3mo ago
+·
+imported
+For
+100%
+
+20 votes
+
+Continuation of Long-Term Marketing & PR Campaign with FINPR
+Rejected
+#21afe
+0xA481...CdE1
+·
+3mo ago
+·
+imported
+Against
+71%
+Abstain
+29%
+
+11 votes
+
+Temporary Suspension of new treasury-funded activities of the Redbelly Community DAO Until Ecosystem Readiness
+Passed
+#c1db9
+0xA481...CdE1
+·
+3mo ago
+·
+imported
+For
+100%
+
+14 votes
+
+Community Task Board Initiative
+Passed
+#f1f20
+Polites
+·
+7mo ago
+·
+imported
+For
+91%
+Abstain
+9%
+
+19 votes
+
+Redbelly Internship Pilot – Youth Documentation & Research by @nekoyamaneki
+Passed
+#7e42e
+0xA481...CdE1
+·
+7mo ago
+·
+imported
+For
+53%
+Against
+37%
++1 more
+
+20 votes
+
+Redbelly Mascot Design Competition By @debanked
+Rejected
+#0c426
+0xA481...CdE1
+·
+7mo ago
+·
+imported
+Against
+48%
+For
+30%
++1 more
+
+16 votes
+
+Communication Strategy Proposal
+Rejected
+#ab6c3
+0xA481...CdE1
+·
+7mo ago
+·
+imported
+Against
+44%
+Abstain
+30%
++1 more
+
+17 votes
+
+Marketing press only : FINPR Agency
+Passed
+#7ac0d
+0xA481...CdE1
+·
+7mo ago
+·
+imported
+For
+85%
+Abstain
+15%
+
+17 votes
+
+Staking Proposal
+Passed
+#3fcb8
+0xA481...CdE1
+·
+7mo ago
+·
+imported
+For
+62%
+Against
+38%
+
+11 votes
+
+DAO Leadership Elections
+Majnoon
+#295c5
+0xf72F...733b
+·
+8mo ago
+·
+imported
+Majnoon
+50%
+Buffy
+29%
++1 more
+
+33 votes
+
+Redbelly Developer Docs - Production Ready Onboarding System
+Rejected
+#08dc7
+0x05b4...3921
+·
+9mo ago
+·
+imported
+Against
+71%
+For
+29%
+
+18 votes
+
+Redbelly Q1 2026 Awareness & Growth Campaign
+Rejected
+#35b78
+0xE99e...62eD
+·
+9mo ago
+·
+imported
+Against
+96%
+For
+4%
+
+20 votes
+
+Accelerating community Growth via deep Research and educative Video Transparency
+Rejected
+#46165
+0x1D87...01f0
+·
+9mo ago
+·
+imported
+Against
+75%
+For
+25%
+
+23 votes
+
+Redbelly X-Tipping Campaign
+Passed
+#e88a5
+0x05b4...3921
+·
+9mo ago
+·
+imported
+For
+84%
+Abstain
+10%
++1 more
+
+20 votes
+
+REDBELLY DAO — Education, Growth & Community Ambassador Program
+Passed
+#0d19d
+0x3658...4758
+·
+10mo ago
+·
+imported
+For
+99%
+Against
+1%
+
+24 votes
+
+‎Redbelly Africa Campus Tour Revival & Global Expansion Framework ‎
+Rejected
+#0ffc3
+0xF6C5...91cc
+·
+10mo ago
+·
+imported
+Against
+73%
+For
+27%
+
+27 votes
+
+Community Consultation Policy — Authorization of Proposal Discussions in Non-Official Groups
+Passed
+#ee2c6
+0xA481...CdE1
+·
+10mo ago
+·
+imported
+For
+100%
+
+31 votes
+
+Choose the Official DAO Logo – Community Vote 🗳️
+6
+#c08b7
+0xA481...CdE1
+·
+11mo ago
+·
+imported
+6
+67%
+3
+22%
++3 more
+
+51 votes
+
+Community Code of Conduct
+Passed
+#0503b
+0x130c...09E3
+·
+1y ago
+·
+imported
+For
+93%
+Abstain
+7%
+
+6 votes
+
+Update DAO Proposal Submission Template
+Passed
+#ed042
+0x130c...09E3
+·
+1y ago
+·
+imported
+For
+100%
+
+6 votes
+
+Adoption of Standardised Proposal Evaluation Criteria
+Passed
+#f2a05
+0x130c...09E3
+·
+1y ago
+·
+imported
+For
+100%
+
+6 votes
+
+Snapshot Voting Duration
+Passed
+#2bc9c
+0x130c...09E3
+·
+1y ago
+·
+imported
+For
+93%
+Against
+7%
+
+6 votes
+
+DAO Guild Structure – Consolidation
+Abstain
+#901e2
+0x130c...09E3
+·
+1y ago
+·
+imported
+Abstain
+57%
+For
+43%
++1 more
+
+10 votes
+
+Budget Allocation per Proposal
+Passed
+#1bd98
+0x130c...09E3
+·
+1y ago
+·
+imported
+For
+81%
+Against
+19%
+
+10 votes
+
+Proposal Submission Limit per Round
+Passed
+#7a56c
+0x130c...09E3
+·
+1y ago
+·
+imported
+For
+100%
+
+10 votes
+
+Redbelly Community DAO Constitution - Ratification
+Passed
+#cc1ea
+0xf72F...733b
+·
+1y ago
+·
+imported
+For
+100%
+
+6 votes
+
+Testing
+Abstain
+#b148a
+0xf72F...733b
+·
+1y ago
+·
+imported
+Abstain
+53%
+For
+44%
++1 more
+
+14 votes

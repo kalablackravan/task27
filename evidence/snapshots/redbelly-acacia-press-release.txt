@@ -1,0 +1,140 @@
+Asset Tokenisation
+Resources
+Resources
+Developer Tools
+Blog
+Research
+Whitepaper
+AMA
+Project Acacia
+Community
+Community
+Community
+Events
+Grant Program
+Company
+Company
+
+GET IN TOUCH
+
+About Us
+Team
+Contact Us
+Ecosystem
+Join Mainnet
+Press Release
+
+ Embargoed until 10am on 10 July 2025
+
+Project Acacia: RBA and DFCRC announce chosen industry participants and ASIC provides regulatory relief for tokenised asset settlement research project
+
+Project Acacia has today reached a significant milestone with a number of industry participants (see below) selected to explore how innovations in digital money and existing settlement infrastructure might support the development of Australian wholesale tokenised asset markets.
+
+Project Acacia is a joint initiative between the Reserve Bank of Australia (RBA) and the Digital Finance Cooperative Research Centre (DFCRC). This work is alsosupported by the Australian Securities and Investments Commission (ASIC), the Australian Prudential Regulation Authority (APRA), and the Australian Treasury. This project is one of the initiatives highlighted in the Government’s
+
+24 innovative use cases from a diverse range of organisations, ranging from local fintechs to major banks, have been conditionally selected for this next stage of the project. There will be:
+
+19 pilot use cases, which will involve real money and real asset transactions, and • 5 proof-of-concept use cases involving simulated transactions.
+
+The use cases involve a range of asset classes, including fixed income, private markets, trade receivables and carbon credits.
+
+Proposed settlement assets for the use cases include stablecoins, bank deposit tokens, and pilot wholesale central bank digital currency (CBDC), as well as new ways of using banks’ existing exchange settlement accounts at the RBA.
+
+Issuance of pilot wholesale CBDC for testing use cases will occur on a range of private and public-permissioned DLT platforms, including Hedera, Redbelly Network, R3 Corda and other EVM-compatible networks.
+
+ASIC clears way for industry participation
+
+Supporting Project Acacia, ASIC is providing regulatory relief to participants to support and streamline the pilot.
+
+ASIC’s relief will support the responsible testing of tokenised asset transactions, in some cases using CBDCs, between participants and a limited number of financial institutions in the coming months.
+
+ASIC has previously provided individual relief of a similar nature to participants in earlier digital money projects led by the RBA.
+
+Project Acacia’s next steps
+
+Testing of use cases will occur over the next six months, with a report on the findings from the project expected to be published in the first quarter of 2026. The findings of this next stage of the project will support the RBA’s ongoing research into how innovation in the financial system can best support the Australian economy in the digital age.
+
+Lead use case participants
+
+Australian Bond Exchange
+Australia and New Zealand Banking Corporation
+Australian Payments Plus
+Canvas
+Catena Digital
+Commonwealth Bank of Australia
+Fireblocks
+Forte
+Imperium Markets
+Northern Trust
+NotCentralised
+ProspEx
+Westpac Banking Corporation
+Zerocap
+
+Brad Jones, Assistant Governor (Financial System) at the RBA said: “Ensuring that Australia’s payments and monetary arrangements are fit-for-purpose in the digital age is a strategic priority for the RBA and the Payments System Board. Project Acacia represents an opportunity for further collaborative exploration on tokenised asset markets and the future of money by the public and private sectors in Australia.
+
+“The use cases selected in this project will help us to better understand how innovations in central bank and private digital money, alongside payments infrastructure, might help to uplift the functioning of wholesale financial markets in Australia.
+
+“We thank all interested parties for their efforts in Project Acacia to date and look forward to reporting back on the findings that will emerge over the reminder of the project.”
+
+ASIC Commissioner Kate O’Rourke said: “Innovation is a sign of a vibrant economy and society. ASIC supports the responsible development of new technologies, including tokenisation and distributed ledgers.
+
+“ASIC sees useful applications for the technologies underlying digital assets in wholesale markets. The relief from regulatory requirements that we have announced today will allow these technologies to be sensibly tested—to explore opportunities and identify and tackle risks.
+
+“Importantly, Project Acacia will allow industry and regulators to work together to learn more about how these use cases may reshape the financial services industry, potentially boosting efficiency and foster economic growth.”
+
+Professor Talis Putnins, Chief Scientist at DFCRC said: “It is great to have collaboration from so many parts of the industry, from small fintechs to large banks, alongside the key financial regulators in this forward-looking, innovative project. The real money settlement models being tested, including issuing pilot wholesale CBDC on third party platforms, reflects another world-first for Australia in this rapidly evolving field.
+
+“The project is of strategic importance to the DFCRC because, as a co-operative research centre, our focus is on bringing together key groups to unlock the large economic potential of digital finance innovation in Australia. Recent research suggests potential economic gains in markets and cross border payments could be in the order of AU $19 billion per year. Project Acacia is a significant step towards realising these gains, by providing evidence on the forms of money and settlement models that best enable tokenised real-world asset markets.”
+
+About Project Acacia
+
+Project Acacia isexploring how different forms of digital money and associated infrastructure could support the development of wholesale tokenised asset markets in Australia. The initiating Project Acacia was released in November 2024 and called for industry feedback and expressions of interest in participating.
+
+Project Acacia is a joint research project between Reserve Bank of Australia (RBA) and the Digital Finance Cooperative Research Centre (DFCRC). The project is supported by key stakeholders including the Australian Securities and Investments Commission (ASIC), Australian Prudential Regulation Authority (APRA) and the Australian Treasury, which are all represented on the project Steering Committee, along with representatives from the RBA and DFCRC.
+
+FIND US ON
+FOLLOW US
+JOIN COMMUNITY
+RESOURCES
+Vine Developer Portal
+Blog
+Research Hub
+Whitepaper
+AMA
+Project Acacia
+COMMUNITY
+Community
+Events
+Grant Program
+Bug Bounty Program
+COMPANY
+About Us
+Team
+Contact Us
+GENERAL
+Privacy Policy
+Terms and Conditions
+Brand Kit
+Disclaimer
+LOCATIONS
+Redbelly Network Pty Ltd
+Australia
+304/74 Pitt St. Sydney
+NSW 2000, Australia
+India
+2nd floor, Plot 14,
+IT park Chandigarh, sector 13, Chandigarh, India
+© REDBELLY NETWORK 2026
+COOKIE SETTINGS
+Back to top
+
+PRIVACY
+
+We use cookies
+
+We use cookies to run Redbelly Network securely and — with your permission — for analytics and marketing. You can Accept all, Reject all, or choose categories. See our Privacy Policy.
+
+Accept all
+Reject all
+Manage preferences

@@ -1,0 +1,197 @@
+{
+  "note": "Snapshots are the rendered page text (document.body.innerText after JavaScript ran), captured with Playwright on the retrieval date. The PDF snapshot is pdftotext output.",
+  "sources": [
+    {
+      "id": "redbelly-home",
+      "url": "https://redbelly.network",
+      "title": "Redbelly Network website",
+      "snapshot": "evidence/snapshots/redbelly-home.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "21729dc57aa06f49c736b544dec239361c918fda818a8c5a181205b51905c563"
+    },
+    {
+      "id": "redbelly-whitepaper-page",
+      "url": "https://redbelly.network/whitepaper",
+      "title": "Redbelly whitepaper page",
+      "snapshot": "evidence/snapshots/redbelly-whitepaper-page.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "446a87d69790c862348b424e5e231d3e1f232b1ae4754156b1d38311f68fe557"
+    },
+    {
+      "id": "redbelly-whitepaper-pdf",
+      "url": "https://redbelly.network/redbelly-network-whitepaper.pdf",
+      "title": "Redbelly whitepaper (PDF)",
+      "snapshot": "evidence/snapshots/redbelly-whitepaper-pdf.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "7873ab8cceb6450b7a9b656b6bfc01d7870c6e7355dc4ac22c50125116335e2e"
+    },
+    {
+      "id": "redbelly-research",
+      "url": "https://redbelly.network/research",
+      "title": "Redbelly research hub",
+      "snapshot": "evidence/snapshots/redbelly-research.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "d95793d7452a386f680b5505751ecc7438b504624463485bbd8cb968a8f6d02d"
+    },
+    {
+      "id": "redbelly-asset-tokenisation",
+      "url": "https://redbelly.network/asset-tokenisation",
+      "title": "Redbelly asset tokenisation",
+      "snapshot": "evidence/snapshots/redbelly-asset-tokenisation.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "a81dfae979227837b44774344ac2b01b86f50ff92280fb6b6ca34d44e08b13da"
+    },
+    {
+      "id": "redbelly-project-acacia",
+      "url": "https://redbelly.network/projectacacia",
+      "title": "Redbelly Project Acacia page",
+      "snapshot": "evidence/snapshots/redbelly-project-acacia.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "7e658559d17d710fb029a4ce05ff8972f666ee6136e56a6723cf736e684a14f7"
+    },
+    {
+      "id": "redbelly-acacia-faq",
+      "url": "https://redbelly.network/projectacacia/FAQ",
+      "title": "Project Acacia FAQ (linked from the Project Acacia page)",
+      "snapshot": "evidence/snapshots/redbelly-acacia-faq.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "1561f9b963a97b64bd4c74f2820445eff4dcd5a689e7573a2c7dadf0a5d863a3"
+    },
+    {
+      "id": "redbelly-acacia-press-release",
+      "url": "https://redbelly.network/projectacacia/PressRelease",
+      "title": "Project Acacia press release (linked from the Project Acacia page)",
+      "snapshot": "evidence/snapshots/redbelly-acacia-press-release.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "b93ad5dc207a441d34ce01bc830bc910848ca8d5aadd7bef0ea1955fde2b82a9"
+    },
+    {
+      "id": "docs-receptor",
+      "url": "https://docs.redbelly.network/pages/receptor/",
+      "title": "Receptor overview",
+      "snapshot": "evidence/snapshots/docs-receptor.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "d848522fca8239e331feae39b89081cfb39560ac94772c5de6b2c361e7153f73"
+    },
+    {
+      "id": "docs-selective-disclosure-vs-zk",
+      "url": "https://docs.redbelly.network/pages/eligibility-sdk/selective-disclosure-vs-zero-knowledge/",
+      "title": "Selective disclosure and zero knowledge proofs",
+      "snapshot": "evidence/snapshots/docs-selective-disclosure-vs-zk.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "9efa2d14f69dacaa49068970109cf09ec618354aea0d25a9af2d835f05df51d7"
+    },
+    {
+      "id": "docs-selective-disclosure",
+      "url": "https://docs.redbelly.network/pages/methods/selective-disclosure/",
+      "title": "Receptor method: Selective Disclosure",
+      "snapshot": "evidence/snapshots/docs-selective-disclosure.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "283c5b8080bbaffcb02187456e8b1b38765254ffa15a01acf5eebd99ec61992c"
+    },
+    {
+      "id": "docs-eligibility-kit",
+      "url": "https://docs.redbelly.network/pages/eligibility-sdk/overview/",
+      "title": "Onboarding and Eligibility Kit overview",
+      "snapshot": "evidence/snapshots/docs-eligibility-kit.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "3c219ef6dd2899693f0153460a78d52cde5a7b0cccc4ca506a2ab43f18b815c4"
+    },
+    {
+      "id": "tokeniser-home",
+      "url": "https://tokeniser.com",
+      "title": "Tokeniser website",
+      "snapshot": "evidence/snapshots/tokeniser-home.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "c6e46e36baf3cfc3f2a59676c69128a5ec65ce3fb162ac7ba4e2c129d37dd027"
+    },
+    {
+      "id": "tokeniser-technology",
+      "url": "https://tokeniser.com/technology",
+      "title": "Tokeniser: Our Technology",
+      "snapshot": "evidence/snapshots/tokeniser-technology.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "6eb1b03a123a6e300b00f8120379200a7408308900e5e2c115bddedad8dee87b"
+    },
+    {
+      "id": "tokeniser-automated-compliance",
+      "url": "https://tokeniser.com/product/superpowers/automated-compliance",
+      "title": "Tokeniser: Automated Compliance",
+      "snapshot": "evidence/snapshots/tokeniser-automated-compliance.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "564f92df7003993ca25bb3a3e1c594d7fbdd920d4019d6901643b363db310cd7"
+    },
+    {
+      "id": "task07-acacia-deep-dive",
+      "url": "https://khalyd.substack.com/p/redbelly-network-and-the-rbas-project",
+      "title": "TASK-07 Project Acacia deep dive (winning entry)",
+      "snapshot": "evidence/snapshots/task07-acacia-deep-dive.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "f749bfd16628d01b0d12b774d977d6cda987a76e552351aa09fa1b53f95393e3"
+    },
+    {
+      "id": "task23-changelog-now",
+      "url": "https://redbelly.smartcodedbot.com/changelog/",
+      "title": "TASK-23 changelog, tab: What is in force now (sourced to 1 August 2026)",
+      "snapshot": "evidence/snapshots/task23-changelog-now.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "36fc241024700f42427d72fd1552e3b55e201efeb4fe7c84f035d9dde373b311"
+    },
+    {
+      "id": "task23-changelog",
+      "url": "https://redbelly.smartcodedbot.com/changelog/",
+      "title": "TASK-23 changelog, tab: Changelog (sourced to 1 August 2026)",
+      "snapshot": "evidence/snapshots/task23-changelog.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "cbdcab3ee263d76a1be153a9f1c2a3cad4538523dcca6129eff36ec9a60012ce"
+    },
+    {
+      "id": "governance-proposals",
+      "url": "https://redbelly-governance.vercel.app/proposals",
+      "title": "DAO voting platform: Proposals",
+      "snapshot": "evidence/snapshots/governance-proposals.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "d6930a0c66c5555d51f5acf45a1e8cd99be7358f87a406c62e3ea62dfa39d7d4"
+    },
+    {
+      "id": "governance-wallet-safety",
+      "url": "https://redbelly-governance.vercel.app/safety",
+      "title": "DAO voting platform: Wallet safety",
+      "snapshot": "evidence/snapshots/governance-wallet-safety.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "2fbede32b417d509d7c794dcaec63f4b81dbb2979b90a24460c55437fab6acc4"
+    },
+    {
+      "id": "governance-new-proposal",
+      "url": "https://redbelly-governance.vercel.app/create",
+      "title": "DAO voting platform: New proposal form",
+      "snapshot": "evidence/snapshots/governance-new-proposal.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "245036ed999eae0735312dece6d9eb881f654f9a81a806ce6071a573307b17f4"
+    },
+    {
+      "id": "governance-proposal-f832b",
+      "url": "https://redbelly-governance.vercel.app/proposal/f832b2b9-18fd-4d65-967d-0a85b89a500e",
+      "title": "DAO voting platform: Proposal Resubmission Policy (#f832b, closed 5 Oct 2026)",
+      "snapshot": "evidence/snapshots/governance-proposal-f832b.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "c25bf84b169d654df87e2328dcb03ebb8b375f0690e4083e37abcc05955edfc3"
+    },
+    {
+      "id": "governance-proposal-13eeb",
+      "url": "https://redbelly-governance.vercel.app/proposal/13eebe46-d2e2-4fd2-9f18-1e202d3dce36",
+      "title": "DAO voting platform: one verified address, one vote test (#13eeb)",
+      "snapshot": "evidence/snapshots/governance-proposal-13eeb.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "d8254c34c345d87d2ee904b3c145b0cd9e44ef27258687a762080c09d929e168"
+    },
+    {
+      "id": "governance-proposal-0f5b5",
+      "url": "https://redbelly-governance.vercel.app/proposal/eec4deb2-e080-449d-82a8-307be02a636a",
+      "title": "DAO voting platform: Amendment to Leadership Structure (#0f5b5, closed 16 Jul 2026)",
+      "snapshot": "evidence/snapshots/governance-proposal-0f5b5.txt",
+      "retrieved": "2026-10-13",
+      "sha256": "373ba20e1cb3b931341e32e22347b9d3a45a11967c752f05e3120c8e05894570"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+Redbelly Network
+Governance
+New proposal
+Overview
+Proposals
+41
+Members
+162
+Wallet safety
+
+Nothing is open for voting.
+
+One person, one vote
+Every address here clears Redbelly’s passport-backed identity check.
+Connect wallet
+Proposals
+Passed
+Share
+Proposal Resubmission Policy
+
+#f832b
+by
+0x6a24...D7cb
+·
+Single choice
+·
+Verified wallets only
+
+Voting closed
+
+Oct 5, 2026, 6:49 AM UTC
+
+See full proposal in Proposals channel in Discord
+
+A proposal that is not approved may be resubmitted at any time where it has been materially revised in response to community feedback.
+Material revisions may include changes to objectives, scope, implementation, budget, governance impacts, risk mitigation, KPIs, timeline or other substantive elements.
+A proposal that is substantially unchanged should normally not be resubmitted until a reasonable period has elapsed or circumstances have materially changed.
+Proposal authors are encouraged to include a summary of changes made since the previous submission.
+Proposal reviewers may recommend further consultation before a resubmitted proposal proceeds to voting.
+Nothing in this policy prevents urgent constitutional, security or treasury matters from being reconsidered where circumstances require.
+This policy promotes continuous improvement rather than preventing community consideration of revised ideas.
+Votes
+9
+Details
+VOTER	CHOICE	POWER	
+RECEIPT
+
+
+0x6B63...3D38
+	
+Yes
+	1.00	
+
+
+Ishak
+	
+Yes
+	1.00	
+
+
+0xC387...d814
+	
+Yes
+	1.00	
+
+
+Kanz
+	
+Yes
+	1.00	
+
+
+0xB03D...Dd2c
+	
+Yes
+	1.00	
+
+
+Cyon
+	
+Yes
+	1.00	
+
+
+0xA481...CdE1
+	
+Yes
+	1.00	
+
+
+Polites
+	
+Yes
+	1.00	
+
+
+Berlin
+	
+Yes
+	1.00	
+Results
+
+Passed
+
+Carried with 100% of the voting power.
+
+YesWon
+9.00100.0%
+No
+0.00000.0%
+Abstain
+0.00000.0%
+Voters
+9
+Identity quorum
+9 / 5 reached
+Quorum
+9.00 / 5.00 reached

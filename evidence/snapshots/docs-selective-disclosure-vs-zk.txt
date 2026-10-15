@@ -1,0 +1,113 @@
+Skip to content
+Redbelly Network Technical Documentation
+Choosing Your Proof Method
+Type to start searching
+Home
+Receptor
+Onboarding and Eligibility Kit
+Onboarding and Eligibility Kit
+Introduction
+Overview
+Getting Started
+Installation
+Choosing Your Proof Method
+EligibilitySdk
+Overivew
+Supported Wallets
+Configure Eligibility Criteria
+Example
+IndividualOnboardingSDK
+Overview
+BusinessOnboardingSDK
+Overview
+API Reference
+EligibilitySdk
+IndividualOnboardingSDK
+BusinessOnboardingSDK
+Hooks
+useHasChainPermission
+useBusinessDetails
+Selective Disclosure vs. Proof by Query (Zero Knowledge)
+What is Selective Disclosure?
+How it works:
+Key Characteristics:
+What is is Proof by Query (Zero Knowledge)?
+How it works:
+Key Characteristics:
+When to Choose Which?
+Choose Selective Disclosure when:
+Choose Zero Knowledge (Proof by Query) when:
+Choosing Your Proof Method
+Selective Disclosure vs. Proof by Query (Zero Knowledge)¶
+
+In the Redbelly Network ecosystem, we provide two primary methods for verifying credentials: Selective Disclosure and Proof by Query. Both are designed to ensure that users can prove their eligibility without compromising their privacy, but they function in different ways and are suited for different use cases. This guide will help you understand the differences and choose the right method for your application.
+
+These approaches can operate off-chain or on-chain, depending on the level of trustlessness and privacy your use case demands.
+
+What is Selective Disclosure?¶
+
+Selective Disclosure (SD) is a method where a user reveal only specific fields from their credential to a verifier. This process is handled off-chain, meaning the data is shared directly between the user (holder) and the verifier without being recorded on the blockchain.
+
+How it works:¶
+
+Request : The verifier requests one or more fields from the user (e.g., "name", "country").
+
+Consent & Reveal : The user consents and reveals only the requested data point (e.g., the "name" field from their digital ID). The rest of the information in the credential remains hidden.
+
+Verification : The verifier receives the disclosed information along with a cryptographic signature, allowing them to confirm its authenticity without seeing the entire credential.
+
+Key Characteristics:¶
+Off-Chain : Verification happens directly between the holder and verifier, ensuring privacy and speed.
+Data Reveal : Specific, requested information is revealed to the verifier.
+Simplicity : It's a straightforward process for both the developer and the end-user.
+What is is Proof by Query (Zero Knowledge)?¶
+
+Proof by Query (PBQ) uses zero-knowledge proofs, allow users to prove a statement is true without revealing any of the underlying data that makes it true.
+
+For on-chain verification method the proof is submitted to and verified by a smart contract on the Redbelly Network.
+
+How it works:¶
+
+Query : The verifier asks a yes/no question using a query, like “Is the user over 18?”
+
+Proof Generation : The user's wallet generates a cryptographic proof that they satisfy the query, without revealing their address or any other personal information.
+
+Verification : For on-chain the proof is submitted to the blockchain, where a smart contract verifies its validity. The result is a simple "true" or "false," with no personal data ever being exposed on-chain.
+
+Key Characteristics:¶
+
+On-Chain : The verification is generally executed and recorded on the blockchain, providing a high level of trust and transparency.
+
+Maximum Privacy : No personal data is ever revealed to the verifier or recorded on-chain.
+
+Trustless : Verification is handled by a smart contract, removing the need to trust a central verifier(when on-chain)
+
+When to Choose Which?¶
+
+The choice between Selective Disclosure and Zero Knowledge depends on your specific needs:
+
+Choose Selective Disclosure when:¶
+
+The verifier needs to know a specific piece of information (e.g., the user's name for a registration process).
+
+You need to perform off-chain identity verification.
+
+Your logic doesn't involve conditions (just field access).
+
+Choose Zero Knowledge (Proof by Query) when:¶
+
+You want to verify a condition (such as voting in a DAO, participating in a token sale, or accessing a DeFi protocol).
+
+Maximum privacy is a critical requirement, and no personal data should be revealed to any party.
+
+You need on-chain, and you want a trustless verification process that is transparent and auditable on the blockchain.
+
+Reminder : In SD, data is revealed. In PBQ, only the proof is shared—no data is exposed, ever.
+
+By offering both methods, the Redbelly Network provides the flexibility to build a wide range of applications that are both compliant and privacy-preserving.
+
+Ready to get started? Head over to our guide covering how to Configure Eligibility Criteria to implement the proof method that's right for you.
+
+ Back to top
+© Redbelly Network 2025
+Made with Material for MkDocs

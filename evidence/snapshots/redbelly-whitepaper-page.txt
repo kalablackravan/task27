@@ -1,0 +1,95 @@
+Asset Tokenisation
+Resources
+Resources
+Developer Tools
+Blog
+Research
+Whitepaper
+AMA
+Project Acacia
+Community
+Community
+Community
+Events
+Grant Program
+Company
+Company
+
+GET IN TOUCH
+
+About Us
+Team
+Contact Us
+Ecosystem
+Join Mainnet
+Redbelly Network Whitepaper Learn About Our Technology, Vision, and Innovations Download Our Comprehensive Whitepaper
+Redbelly Network Whitepaper
+This paper details the purpose of Redbelly Network, describes its infrastructure topology, and gives an overview of supporting infrastructure crucial to its success.
+
+Redbelly Network is a revolutionary solution for Compliant Asset Tokenisation, built on an open ﬁnance platform that embeds distributed ledger technology into the heart of ﬁnancial relationships. This eliminates information asymmetry and dramatically increases efficiency, helping to build a fairer ﬁnancial system for all. With a novel leaderless consensus mechanism, democratic byzantine fault tolerant (DBFT) consensus developed with The University of Sydney and CSIRO’s Data61, we are able to achieve high performance and guarantee the impossibility of forking and mitigate double spending with near-instant ﬁnality.
+
+
+
+
+Redbelly Network is designed to focus on accountability. Accountability is enforced at a protocol level through a novel mechanism that constructs undeniable proofs of fraud -Polygraph; and at the functional level through an innovative identity layer that ensures all network participants are known.
+
+
+
+
+Through standards-based smart contract templates, real-world ﬁnancial relationships are deployed as Ricardian contracts on Redbelly Network, thereby beneﬁting from reduced information asymmetry, huge gains in efficiency, low and known transaction costs, as well as the accountability afforded by legal and regulatory enforcement that is required for any real-world ﬁnancial relationship.
+
+
+
+
+This paper details the purpose of Redbelly Network describes its infrastructure topology, and gives an overview of supporting infrastructure crucial to its success.
+
+Redbelly White Paper
+
+Find out more about Redbelly’s purpose, infrastructure topology and network framework.
+
+Download Whitepaper
+FIND US ON
+FOLLOW US
+JOIN COMMUNITY
+RESOURCES
+Vine Developer Portal
+Blog
+Research Hub
+Whitepaper
+AMA
+Project Acacia
+COMMUNITY
+Community
+Events
+Grant Program
+Bug Bounty Program
+COMPANY
+About Us
+Team
+Contact Us
+GENERAL
+Privacy Policy
+Terms and Conditions
+Brand Kit
+Disclaimer
+LOCATIONS
+Redbelly Network Pty Ltd
+Australia
+304/74 Pitt St. Sydney
+NSW 2000, Australia
+India
+2nd floor, Plot 14,
+IT park Chandigarh, sector 13, Chandigarh, India
+© REDBELLY NETWORK 2026
+COOKIE SETTINGS
+Back to top
+
+PRIVACY
+
+We use cookies
+
+We use cookies to run Redbelly Network securely and — with your permission — for analytics and marketing. You can Accept all, Reject all, or choose categories. See our Privacy Policy.
+
+Accept all
+Reject all
+Manage preferences

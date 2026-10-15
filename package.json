@@ -1,0 +1,13 @@
+{
+  "name": "redbelly-basics-infographics",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs && python3 scripts/zip.py",
+    "check": "python3 scripts/check.py --outputs",
+    "preview": "npx --yes http-server -c-1 -p 8080 ."
+  },
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}

@@ -1,0 +1,128 @@
+Redbelly Network
+Governance
+New proposal
+Overview
+Proposals
+41
+Members
+162
+Wallet safety
+
+Nothing is open for voting.
+
+One person, one vote
+Every address here clears Redbelly’s passport-backed identity check.
+Connect wallet
+Proposals
+Passed
+Share
+TEST PROPOSAL - ONE PERSON ONE VOTE
+
+#13eeb
+by
+0x6a24...D7cb
+·
+One verified address, one vote
+·
+Verified wallets only
+
+Voting closed
+
+Sep 2, 2026, 9:13 PM UTC
+
+testing one person = one vote
+
+Votes
+12
+Details
+VOTER	CHOICE	POWER	
+RECEIPT
+
+
+0x6a24...D7cb
+	
+Yes
+	1.00	
+
+
+0x05b4...3921
+	
+No
+	1.00	
+
+
+0x8AD0...3a37
+	
+No
+	1.00	
+
+
+0x29dc...aE8F
+	
+Yes
+	1.00	
+
+
+DIG_RaZor
+
+Holdings should still carry weight
+
+	
+No
+	1.00	
+
+
+0x3650...8D52
+	
+Abstain
+	1.00	
+
+
+Berlin
+	
+Yes
+	1.00	
+
+
+0xB80e...e7Aa
+	
+Yes
+	1.00	
+
+
+0x1146...C906
+	
+Yes
+	1.00	
+
+
+0xA481...CdE1
+	
+No
+	1.00	
+
+
+0x2Bbe...0155
+	
+Yes
+	1.00	
+
+
+0xF7A3...7c85
+	
+Yes
+	1.00	
+Results
+
+Passed
+
+Carried with 58% of the voting power.
+
+YesWon
+7.0058.3%
+No
+4.0033.3%
+Abstain
+1.008.3%
+Voters
+12

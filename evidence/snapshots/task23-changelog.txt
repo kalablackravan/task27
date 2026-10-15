@@ -1,0 +1,109 @@
+CHANGELOG
+Every structural decision, oldest first
+
+15 of the 30 Snapshot proposals changed governance structure, the constitution or the rulebook. Each carries the vote record, the clause it touches, and whether it was actually applied. Decisions that never reached Snapshot are on the Not on Snapshot tab.
+
+CLOSED	DECISION	APPLIED	HOW VERIFIED
+2025-09-20	Redbelly Community DAO Constitution - Ratification	
+APPLIED	artefact
+2025-09-20	Proposal Submission Limit per Round	
+UNVERIFIABLE	unverifiable
+2025-09-20	Budget Allocation per Proposal	
+UNVERIFIABLE	unverifiable
+2025-09-20	DAO Guild Structure – Consolidation	
+NOT APPLIED	artefact
+2025-10-06	Snapshot Voting Duration	
+PARTLY	convention
+2025-10-06	Adoption of Standardised Proposal Evaluation Criteria	
+APPLIED	artefact
+2025-10-06	Update DAO Proposal Submission Template	
+UNVERIFIABLE	unverifiable
+2025-10-06	Community Code of Conduct	
+APPLIED	artefact
+2025-12-12	Community Consultation Policy — Authorization of Proposal Discussions in Non-Official Groups	
+UNVERIFIABLE	unverifiable
+2026-01-31	DAO Leadership Elections	
+APPLIED	convention
+2026-03-05	Community Task Board Initiative	
+APPLIED	artefact
+2026-07-04	Temporary Suspension of new treasury-funded activities of the Redbelly Community DAO Until Ecosystem Readiness	
+APPLIED	convention
+2026-07-05	DAO Proposal: Increase Governance Accessibility and Protect Contributor Privacy	
+NOT APPLIED	configuration
+2026-07-16	Amendment to Leadership Structure	
+PARTLY	artefact
+2026-07-24	High Council Elections	
+APPLIED	convention
+2025-09-20
+Redbelly Community DAO Constitution - Ratification
+APPLIED
+2025-09-20
+Proposal Submission Limit per Round
+UNVERIFIABLE
+2025-09-20
+Budget Allocation per Proposal
+UNVERIFIABLE
+2025-09-20
+DAO Guild Structure – Consolidation
+NOT APPLIED
+2025-10-06
+Snapshot Voting Duration
+PARTLY
+2025-10-06
+Adoption of Standardised Proposal Evaluation Criteria
+APPLIED
+2025-10-06
+Update DAO Proposal Submission Template
+UNVERIFIABLE
+2025-10-06
+Community Code of Conduct
+APPLIED
+2025-12-12
+Community Consultation Policy — Authorization of Proposal Discussions in Non-Official Groups
+UNVERIFIABLE
+2026-01-31
+DAO Leadership Elections
+APPLIED
+2026-03-05
+Community Task Board Initiative
+APPLIED
+2026-07-04
+Temporary Suspension of new treasury-funded activities of the Redbelly Community DAO Until Ecosystem Readiness
+APPLIED
+2026-07-05
+DAO Proposal: Increase Governance Accessibility and Protect Contributor Privacy
+NOT APPLIED
+Voted to remove the voting whitelist requirement and lift geographic restrictions for general DAO members, keeping them for High Council and DAO Leadership.
+VOTE RECORD
+For at 53.8%, basic ballot, closed 2026-07-05, 119.96 hours. Open on Snapshot
+CLAUSE IT TOUCHES
+Section 2.3 Voting Power, which states voting power is proportional to RBNT held or delegated. The ratified constitution contains no whitelist, no eligibility list and no geographic restriction, so this removes something the constitution never imposed.
+APPLIED? NO
+The whitelist strategy is still attached to the space and to both proposals created after the vote closed. The last signed settings change is 2026-01-28, five months before this vote, so no configuration change was made in response to it.
+NOTE
+Two layers of finding here. First, it passed and was not applied. Second, the thing it asked to remove was never a restriction: the whitelist strategy returns 1 point for a listed address and 0 otherwise, against RBNT balances in the millions. On the most recent proposal, 15 of 27 voters were not on the whitelist and cast 26.7 percent of all voting power. Voter eligibility is governed by voteValidation, which has been set to any for the entire life of the space.
+configuration
+Voter eligibility
+key finding
+2026-07-16
+Amendment to Leadership Structure
+PARTLY
+2026-07-24
+High Council Elections
+APPLIED
+Elected 3 High Council seats. Winners by score: Buffy, NekoyaManeki, Light.
+VOTE RECORD
+Buffy at 32.9%, copeland ballot, closed 2026-07-24, 72 hours. Open on Snapshot
+CLAUSE IT TOUCHES
+Section 2.1 Governance Phases, which places the High Council at Phase 0. No election procedure exists anywhere in the ratified text.
+APPLIED? YES
+The vote closed with a decided ranking.
+WHAT IS DISPUTED
+This proposal replaced an earlier High Council election that was deleted. Its own body states the vote 'has been reset with a corrected voting method' because ranked choice 'is designed to elect a single winner' and could not fill 3 seats, and that 'The new proposal uses Approval voting'.
+RESOLUTION
+The remedy described was not the remedy applied. The replacement proposal runs ballot type copeland, not approval. Copeland is a pairwise Condorcet method, not the tick-every-candidate-you-support count the body promises voters. Snapshot supports approval as a distinct type, so this was a choice rather than a limitation. The election result stands, but voters were told the ballot worked differently from how it actually worked.
+NOTE
+The superseded proposal is absent from the archive. The space carries 50 proposal messages against 30 live proposals, so 20 proposals have been deleted. Deleted content remains on IPFS.
+convention
+Leadership
+key finding

@@ -1,0 +1,158 @@
+Asset Tokenisation
+Resources
+Resources
+Developer Tools
+Blog
+Research
+Whitepaper
+AMA
+Project Acacia
+Community
+Community
+Community
+Events
+Grant Program
+Company
+Company
+
+GET IN TOUCH
+
+About Us
+Team
+Contact Us
+Ecosystem
+Join Mainnet
+Redbelly Network Research Pioneering Innovation in Blockchain and Asset Tokenization Explore Our Latest Research Papers and Findings
+Our Research
+
+Our Compliant Asset Tokenisation solution is built on rigorous scientific research.
+
+Research Papers
+
+Redbelly Blockchain results from more than fifteen years of expertise in the field of distributed systems developed in research institutes among the best in the USA, France, Switzerland and Australia.
+
+Stabl: The Sensitivity of Blockchains to Failures
+
+In this paper, we provide the first fault tolerance comparison of blockchain systems.
+
+Read More
+DBFT: Efficient Leaderless Byzantine Consensus
+
+This paper introduces a new leaderless Byzantine consensus called the Democratic Byzantine Fault Tolerance (DBFT) for blockchains.
+
+Read More
+Polygraph: Accountable Byzantine Agreement
+
+In this paper, we introduce Polygraph, the first accountable Byzantine consensus algorithm.
+
+Read More
+From Blockchain Consensus Back to Byzantine Consensus
+
+In this paper, we discuss the mainstream blockchain consensus algorithms and how the classic Byzantine consensus can be revisited for the blockchain context. In particular, we discuss proof-of-work consensus and illustrate the differences between the Bitcoin and the Ethereum proof-of-work consensus algorithms.
+
+Read More
+ComChain: A Blockchain with Byzantine Fault Tolerant Reconﬁguration
+
+In this paper, we introduce the community blockchain that bridges the gap between these public blockchains and constrained blockchains.
+
+Read More
+Anonymity Preserving Byzantine Vector Consensus
+
+Collecting anonymous opinions finds various applications ranging from simple whistleblowing, releasing secretive information, to complex forms of voting, where participants rank candidates by order of preferences.
+
+Read More
+Redbelly: A Secure, Fair and Scalable Open Blockchain
+
+As blockchain has found applications to track ownership of digital assets, it is crucial for companies to adopt more secure blockchains than the ones proven vulnerable to network attacks before moving them in production.
+
+Read More
+Blockchain Scalability and its Foundations in Distributed Systems
+
+This book, authored by Vincent Gramoli, has been published by Springer in August 2022, ISBN:978-3-031-12577-5, 2022. It explains the techniques used to design a scalable blockchain, the Redbelly Blockchain, and is used as a textbook for the online Blockchain Scalability course by Coursera.
+
+Read More
+Diablo: A Benchmark Suite for Blockchains
+
+With the recent advent of blockchains, we have witnessed a plethora of blockchain proposals. In this paper, we propose the most extensive evaluation of blockchain to date.
+
+Read More
+Smart Redbelly Blockchain: Reducing Congestion for Web3
+
+Decentralization promises to remedy the drawbacks of the web by executing decentralized applications (DApps) on blockchains. Unfortunately, modern blockchains cannot support realistic web application workloads mainly due to congestion. We introduce the Smart Redbelly Blockchain (SRBB), a provably correct permissionless blockchain.
+
+Read More
+Planetary Scale Byzantine Consensus
+
+Byzantine fault tolerant consensus protocols are implemented with consecutive broadcasts but suffer from a low throughput at large geographical scale or planetary scale. A reason for this inefficiency is believed to be their all-to-all communication complexity, which led researchers to design new consensus protocols with more consecutive one-to-all broadcasts but cumulatively fewer messages.
+
+Read More
+What are the different types of Verifiable Credentials and how can they be stacked?
+
+In this paper, we introduce Aion, a set of order-fair protocols for SMR. We first leverage trusted execution environments (TEEs) to enable processes to compute the times when commands are broadcast by their issuers. We then integrate this information into existing consensus protocols to devise order-fair SMR protocols that are both leader-based and leaderless.
+
+Read More
+On the Relevance of Blockchain Evaluations on Bare Metal
+
+In this paper, we present the first bare metal comparison of modern blockchains, including Algorand, Avalanche, Diem, Ethereum, Quorum and Solana. This evaluation was conducted with the recent Diablo benchmark suite, a framework to evaluate the performance of different blockchains on the same ground.
+
+Read More
+Holistic Verification of Blockchain Consensus
+
+In this paper, we remedy this paradox by model checking for the first time a blockchain consensus used in industry. We propose a holistic approach to verify the consensus algorithm of the Redbelly Blockchain, for any number n of processes and any number f < n/3 of Byzantine processes.
+
+Read More
+Resilience to Chain-Quality Attacks in Fair Separability
+
+In this paper, it is proposed that an implementation of fair separability where the cost of outputting transactions remains consistent for the inputs of all processes, which enhances resilience to chain-quality attacks.
+
+Read More
+Redbelly: Yellow Paper
+
+Redbelly Blockchain builds upon recent scientific advances in the context of distributed computing game theory and formal verification to apply blockchains to the real world. In this paper, we present how Redbelly Blockchain combines these results to remedy vulnerabilities that affect modern blockchains.
+
+Read More
+FIND US ON
+FOLLOW US
+JOIN COMMUNITY
+RESOURCES
+Vine Developer Portal
+Blog
+Research Hub
+Whitepaper
+AMA
+Project Acacia
+COMMUNITY
+Community
+Events
+Grant Program
+Bug Bounty Program
+COMPANY
+About Us
+Team
+Contact Us
+GENERAL
+Privacy Policy
+Terms and Conditions
+Brand Kit
+Disclaimer
+LOCATIONS
+Redbelly Network Pty Ltd
+Australia
+304/74 Pitt St. Sydney
+NSW 2000, Australia
+India
+2nd floor, Plot 14,
+IT park Chandigarh, sector 13, Chandigarh, India
+© REDBELLY NETWORK 2026
+COOKIE SETTINGS
+Back to top
+
+PRIVACY
+
+We use cookies
+
+We use cookies to run Redbelly Network securely and — with your permission — for analytics and marketing. You can Accept all, Reject all, or choose categories. See our Privacy Policy.
+
+Accept all
+Reject all
+Manage preferences

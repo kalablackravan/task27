@@ -1,0 +1,65 @@
+Redbelly Network
+Governance
+New proposal
+Overview
+Proposals
+41
+Members
+162
+Wallet safety
+
+Nothing is open for voting.
+
+One person, one vote
+Every address here clears Redbelly’s passport-backed identity check.
+Connect wallet
+Connecting your wallet
+Voting here works the same way it does on Snapshot: you sign a message, you never send a transaction. This page explains exactly what that means, because “trust us” is not a security model.
+What connecting actually does
+
+Connecting shares one thing: your public address. The same string you would paste into a block explorer. It gives this site no permission to move anything, and your private key never leaves your wallet — it is not sent, not stored, and never seen by this server.
+
+From that address we read public information: your RBNT balance and your stake, both of which anyone can already look up on Routescan. Disconnecting takes one click and leaves nothing behind, because nothing was granted.
+
+What this site will never ask for
+approve / permit
+Lets a contract spend your tokens. This is how most wallets get drained.
+setApprovalForAll
+Hands over every NFT in a collection.
+transfer / send
+Moves your funds.
+Any transaction at all
+Voting here costs no gas because nothing is ever sent to the chain.
+
+If this site ever shows you an approval or a transaction popup, reject it and tell the DAO. It would mean you are not on the real site.
+
+The only thing you ever sign
+
+A vote is this structure and nothing else. Your wallet will show you these exact fields before you approve — compare them against what is below.
+
+domain: {
+  name:    "Redbelly Governance",
+  version: "1",
+  chainId: 151
+}
+
+Vote: {
+  from      address
+  space     string
+  proposal  string
+  choice    string
+  reason    string
+  timestamp uint64
+}
+
+There is no amount, no recipient, and no spender in that structure, because it is not a payment instruction. A signature over it is proof that a particular address chose a particular option on a particular proposal. Presented anywhere else it means nothing: the domain binds it to this application, and the fields do not describe a transfer of anything.
+
+Checking for yourself
+
+Read the popup before signing. A wallet always shows the message it is being asked to sign, and a governance vote looks nothing like an approval. This holds on every site, not only this one.
+
+Your signature is stored with your ballot, so anyone can re-verify that your vote was really yours without trusting this server. The same works in reverse: nobody can add a vote in your name, because they cannot produce your signature.
+
+Gas is the tell. Voting here is free. If something asks you to pay a fee to vote, it is not this site.
+
+Still unsure? Connect, then vote from a wallet holding almost nothing. You will see the whole flow costs no gas and moves nothing. Browse proposals

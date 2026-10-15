@@ -1,0 +1,574 @@
+    Redbelly Network: An accountable data layer for AI powered
+                        financial services
+          Enabling equal economic opportunity through trustworthy technology.
+                                             August 28, 2025
+
+                                                   Abstract
+      This whitepaper introduces Redbelly Network, a revolutionary layer 1 blockchain designed specifi-
+      cally as an accountable data layer for AI-powered financial services. Our solution addresses critical
+      market gaps in the tokenisation of real-world assets (RWAs) while enabling AI agents to deliver per-
+      sonalised financial services at scale. By combining technical innovations with practical real world
+      applications, our solution enables a secure, efficient, and orderly programmable capital market to
+      power better financial products.
+
+
+1     The Problem
+Our antiquated financial system perpetuates structural inefficiencies including market concentration,
+information asymmetries, and insufficient access to assets. For asset issuers, these inefficiencies neg-
+atively impact their competitiveness, resilience, and cost of capital. In particular, these structural
+inefficiencies enable back office financial service providers to extract excess rent from asset issuers
+through an unnecessarily inefficient trust stack.
+
+Blockchains, smart contracts, and decentralised finance, offer glimpses of a radical alternative: near-
+zero cost, transparent, and programmable value exchange. Tokenisation is a powerful catalyst for
+change, promising asset issuers a lower cost of capital through; reduced cost to serve, improved distri-
+bution and liquidity, and streamlined reconciliation and audits. This not only commoditises financial
+service providers, lowers switching costs, and increases competitiveness for asset issuers, but also
+democratises access to wealth-generating opportunities for investors by lowering investment thresh-
+olds, increasing liquidity, and expanding market reach.
+
+Yet, tokenisation’s true potential for unlocking value for real world assets (RWA) remains constrained
+by the need for regulated, orderly markets. Blockchains today lack a suitable trust stack for serving
+these kinds of assets, where it is essential to facilitate fair and transparent trading and operate efficiently
+and reliably with clear rules and regulations to establish market confidence. In current blockchain net-
+works, you don’t know who you’re transacting with and you can’t hold anyone accountable for their
+actions. It becomes extremely difficult to meet compliance obligations in such environments.
+
+This problem is exacerbated by the rise of artificial intelligence (AI). With the future of finance be-
+coming increasingly intelligent, the need for orderly markets becomes even more paramount. AI has
+the power to make financial products and services significantly more accessible, facilitating our inter-
+actions with them in natural language, increasing our financial literacy, and personalising our portfolios.
+
+But this future demands accountability. We need to be able to trust the actions these agents take
+on our behalf to ensure markets remain orderly. Just as tokenisation requires an orderly market to
+thrive, AI agents need transparent, programmatic, and verifiable constraints to operate within regu-
+latory boundaries. We must move beyond the black box and build trust through auditable, verifiable
+compliance.
+
+The missing link? Accountable infrastructure - the foundation upon which both regulated tokenisation
+of real world assets and trustworthy AI powered financial services can be built. This infrastructure
+
+
+                                                       1
+must provide the transparency, auditability, and programmatic control necessary to ensure compliance
+and foster market confidence as well as the means to connect and enforce off chain rights and obliga-
+tions with their digital representations.
+
+Redbelly Network is built to bridge this gap. Redbelly Network is the accountable data layer archi-
+tected for the future of finance. We provide an accountable layer 1 blockchain, a suite of compliance
+primitives, and collateral and liquidity protocols to empower asset issuers to build the next generation
+of financial products and services.
+
+For asset issuers, our platform delivers the core benefits of tokenisation – lower cost of capital, increased
+resilience and competitiveness, wider distribution – within a framework that ensures institutional-grade
+security, scalable compliance assurance, and verifiable accountability. This unlocks resilient and com-
+petitive service provision for entire value chains. For AI agents, our platform unlocks an unbundled,
+fully programmable capital market, empowering them to navigate the complexities of tokenised real
+world assets with trust, efficiency, and resilience at scale.
+
+This, ultimately, enables equal economic opportunity for us all.
+
+
+2    Better Financial Products
+Compliantly tokenising Real-World Assets on Redbelly Network unlocks fundamentally better financial
+products with distinct advantages for both asset issuers and investors that are not possible without an
+accountable blockchain. At its core, compliant asset tokenisation provides direct look through to the
+underlying cashflows and conformance of the asset in real time. This enables all actors within a value
+chain to determine whether the asset is performing within its mandate using a verifiable, single source
+of truth across the entirety of the value chain. This real time, granular understanding of the asset
+can be used to inform its value and risk profile throughout its lifecycle. To understand how the value
+proposition comes together, we will now describe the origination of a tokenised asset from issuance
+through to distribution, secondary trading, and yield payments.
+
+
+
+
+                                                     2
+The first step involves tokenisation, where the asset, its rights and obligations, and its ownership are
+digitally represented on the blockchain using smart contracts. These tokenised assets can then be
+pooled together and packaged into a new financial instrument through securitisation. This process is
+undertaken by the asset issuer that issues new tokens, equivalent to bonds or shares, that are backed
+by the performance of the underlying assets.
+
+For example, a company owning multiple commercial properties wants to borrow money against the
+future rent of those properties to buy more buildings. It then tokenises the rental contracts and bor-
+rows against the cashflows (secured by the properties as collateral) by issuing tokens to investors. The
+tokens represent fractional ownership in the underlying cashflow from the rental contacts, with these
+cashflow payments serving to repay the loan with a yield to the token holders.
+
+The issuance, management, and trading of these tokens must comply with applicable securities laws,
+including following Know Your Customer (KYC) and Anti-Money Laundering (AML) procedures for
+investors and adherence to regulations governing the offering and sale of digital securities in the rele-
+vant jurisdiction.
+
+A key advancement in this process is the automation of payment obligations on-chain. Smart contracts,
+which govern the behaviour of the digital tokens, can be programmed to automatically distribute pay-
+ments generated by the underlying assets to the token holders. For example, in the case of the tokenised
+commercial property bonds, the smart contract can be designed to automatically collect rental income
+(such as through integrations with property management systems) and distribute it proportionally to
+the token holders based on their holdings, eliminating the need for manual distribution processes and
+enhancing transparency and efficiency.
+
+Once compliantly securitised and tokenised, these bond tokens can be listed for trading on a secondary
+market such as an Automated Market Maker (AMM). An AMM is a decentralised exchange that uses
+algorithmic formulas to determine asset prices, relying on liquidity pools rather than traditional order
+books.
+
+To list the tokenised security, the issuer or a designated entity would establish a liquidity pool by de-
+positing a pair of tokens, typically the security token and a widely accepted cryptocurrency. Investors
+can then directly buy and sell the tokenised security from this pool, with the price adjusting based on
+the supply and demand within the pool. Note that because the asset issuer has been able to program
+the eligibility criteria into the definition of the asset, only parties that can prove their eligibility will
+be able to hold the token, ensuring the asset issuer’s compliance obligations are met.
+
+The integration of AI agents holds the potential to significantly enhance each stage of this process,
+offering a 10x user experience improvement compared to traditional, non-digital methods for various
+stakeholders.
+
+For RWA Issuers: The creation of legal documentation, compliance checks, and investor onboarding
+are traditionally labour-intensive. AI agents can automate the generation and management of legal
+documents, continuously monitor regulatory changes to ensure ongoing compliance, facilitate product
+disclosure, and streamline KYC/AML procedures for investor onboarding leveraging Redbelly’s RWA
+SDKs.
+
+For RWA Investors: traditional investment processes often involve manual research and limited access
+to diverse opportunities. AI agents can provide intelligent due diligence by analysing vast amounts
+of data related to the underlying assets and issuers, offer personalised investment recommendations
+based on individual risk profiles, and even execute automated trading strategies on secondary markets
+to optimise returns and manage risk in a highly personalised fashion.
+
+For Regulators: Monitoring market activity and ensuring compliance in traditional markets can be
+challenging. AI agents can enhance market surveillance by analysing blockchain data and trading
+activity on AMMs in real-time to detect potential market manipulation or illicit activities, automate
+
+
+
+                                                     3
+compliance monitoring to ensure adherence to regulatory requirements, and identify emerging risk
+patterns within the tokenised asset market.
+
+In summary, the compliant tokenisation and securitisation of assets, coupled with automated on-chain
+payment obligations and trading on AMMs, represents a paradigm shift in financial markets where
+value and risk can be understood in real time for all participants in a value chain. The integration of AI
+agents across this entire lifecycle promises to unlock unprecedented levels of efficiency, transparency,
+and accessibility, ultimately benefiting all participants and fostering a more robust and inclusive fi-
+nancial ecosystem.
+
+In the following sections we will outline the key components and innovations that make this vision
+possible.
+
+
+3    Accountable Blockspace
+The foundational concept of our system is accountable blockspace.
+The Redbelly Network has several unique features that work in con-
+cert to embed accountability into any application running on our net-
+work.
+
+Firstly, all network participants are known. We enforce mandatory identity
+verification for all network participants through our marketplace of accred-
+ited verifiable credential issuers. By knowing who, or what, is transacting
+- from individuals, to businesses, to AI agents - the network has a baseline
+of accountability as all transactions can be tied back to a responsible en-
+tity.
+
+Building on this foundation, at the execution layer, Redbelly im-
+plements an accountability assurance mechanism between the nodes
+that run the network.      This mechanism, detailed in the next sec-
+tion, is able to detect and punish malicious nodes using unde-
+niable proofs of fraud even in the case of a colluding majority,
+ensuring robust resilience and accountability of the network as a
+whole.
+
+This extends into the application layer, where asset issuers leverage com-
+pliance primitives through our RWA APIs and SDKs to seamlessly em-
+bed turnkey jurisdictional compliance, according to their license and man-
+date, into their tokenised assets directly. This transforms the complex-
+ity of compliance assurance into an inherent property of the assets them-
+selves.
+
+The true power of this approach lies in compliance composability. This means
+that when different tokenised assets and protocols interact on our network, they
+automatically inherit the compliance properties of the underlying assets. This
+makes it much simpler for developers to build compliant decentralised finance
+applications for real-world assets.
+
+
+
+
+                                                    4
+4       System Components
+The Redbelly Network platform is made up of several key components that
+enable the compliant asset tokenisation value proposition, including; A RWA capable blockchain, a
+suite of RWA specific APIs and SDKs, and collateral and liquidity protocols.
+
+
+
+
+4.1     A RWA capable blockchain
+At the core of our system is a RWA capable, layer 1 blockchain that implements novel security and
+scaling features that deliver Finality, Accountability, Security, and Throughput (FAST). It is built on
+four core technical innovations, detailed below.
+
+4.1.1    Finality, Security, and Throughput through DBFT
+For RWA issuers operating in regulated markets, the absolute certainty that transactions are final,
+secure, and tamper-proof is paramount. This underpins investor confidence and operational integrity.
+Redbelly Network achieves this critical requirement through our novel consensus mechanism, Demo-
+cratic Byzantine Fault Tolerant (DBFT) consensus.
+
+DBFT is a significant leap in the capabilities of blockchain technology. As a leaderless consensus al-
+gorithm, it eliminates single points of failure while enabling exceptional throughput and near-instant
+finality [1]. It cannot fork and has been mathematically proven to be correct through a process of
+formal verification through parameterised model checking, bolstering its security [2].
+
+Unlike probabilistic consensus mechanisms found in traditional proof-of-work or proof-of-stake systems,
+DBFT is specifically designed for high throughput suitable for financial applications, rapid determinis-
+tic finality (meaning transactions are confirmed as irreversible within seconds, eliminating settlement
+risk), and exceptional resilience against sophisticated attacks, including collusion. This provides the
+
+
+                                                   5
+institutional-grade security and predictability essential for regulated financial assets.
+
+Notably, DBFT has demonstrated over 97,500 transactions per second in production environments
+with near-instant finality in addition to a laboratory-verified maximum theoretical throughput exceed-
+ing 660,000 transactions per second [1]. In addition, when tested against other popular blockchains,
+Redbelly outperformed all of them under real application workloads such as an exchange (e.g. NAS-
+DAQ) or mobility service (e.g. Uber). In fact, Redbelly was the only blockchain able to successfully
+execute these real world workloads without losing transactions [3].
+
+In classical blockchains, participants solve consensus by having different participants engage in ‘fierce’
+competition: proposing their own block and trying to impose it on the system. If they succeed, then
+all other participants lose: their block is the only one appended at the next available index of the
+chain. This is a waste of resources as only one participant succeeds and the rest fail.
+
+Redbelly nodes, on the other hand, solve consensus by combining distinct sets of transactions into a
+‘superblock’ in a leaderless manner to commit more transactions per consensus instance, enhancing
+scalability and performance. In this sense, Redbelly consensus is collaborative instead of competitive
+and is able to reach agreement even in the presence of faulty or malicious actors.
+
+The practical implication for issuers is significantly reduced counterparty risk and the potential for
+much faster settlement cycles compared to traditional finance, enabling new efficiencies and potentially
+novel financial products. For more detail on the technical implementation and testing of DBFT, see
+[2], [4], and [5].
+
+
+4.1.2   Resilient Consensus through Algorithmic Accountability
+Algorithmic Accountability (AA) extends on traditional Byzantine Fault Tolerant (BFT) systems and
+is designed to tolerate an adversary that controls more than half the system. Typically, BFT systems
+can only tolerate less than a third of faulty nodes [2]. This solution achieves algorithmic accountability
+through accountable consensus, proofs of fraud, and dynamic membership changes.
+
+Essentially, if honest nodes disagree on the next block, the system can eventually output at least n/3
+faulty nodes who are responsible for the disagreement. When faulty nodes try to cause disagreement,
+they leave cryptographically signed traces that honest nodes can combine to build undeniable proofs
+of fraud [6]. Think of these as digital fingerprints that cannot be denied.
+
+Once honest nodes gather enough proofs of fraud against faulty nodes, they initiate a membership
+change. This process involves an exclusion protocol to remove the identified faulty nodes from the con-
+sensus committee and could also include an inclusion protocol to add new, presumably honest, nodes.
+This dynamic adjustment of the participant set allows AA to progressively reduce the proportion of
+corrupt nodes below the traditional BFT threshold (1/3), eventually leading to consensus [6].
+
+In essence, AA doesn’t just tolerate a large number of faults; it actively identifies and removes the
+faulty participants based on cryptographic evidence, thus ensuring accountability and allowing the
+system to recover and reach consensus even under challenging conditions.
+
+So, AA ensures that Redbelly is a very resilient system for reaching agreement. It can handle a large
+number of dishonest participants and has a mechanism to remove them, thereby holding them ac-
+countable [6].
+
+
+4.1.3   Fairness through Maximum Extractable Value Mitigation
+Our MEV mitigation protocol is designed to mitigate the issue of Maximal Extractable Value (MEV)
+that plagues current blockchains and hinders their ability to facilitate a fair and orderly market. MEV
+refers to the maximum value that can be extracted from block production by nodes by including,
+
+
+                                                    6
+excluding, or reordering transactions within a block. Those who control block production have the
+ability to influence the order of transactions. This gives them the potential to extract extra value
+beyond standard block rewards and transaction fees.
+
+This protocol establishes a transparent and equitable system for ordering transactions, preventing val-
+idators from manipulating the order for their own profit.
+
+At a high level, the protocol works by obfuscating details of transactions before they are processed by
+the system in a commit-reveal scheme through payload encryption [7], [8]. The system then implements
+a fair ordering of transactions based on the time at which the commit was received. This prevents the
+information asymmetry between users and nodes where nodes can monitor pending transactions and
+reorder them favourably [7], [8].
+
+By neutralising the ability to reorder transactions, we are able to significantly mitigate front-running
+and ensure that all participants have a fair chance of having their transactions included in a block.
+The elimination of exploitative practices and the assurance of fair execution significantly enhance the
+overall market integrity of the blockchain. This increased trust and transparency are particularly cru-
+cial for attracting institutional investors, who require an orderly market.
+
+
+4.1.4   Ethereum compatibility through the Scalable Ethereum Virtual Machine (SEVM)
+We have implemented an optimised and scalable version of the Ethereum Virtual Machine (EVM)
+which is compatible with the innovations of our consensus layer. This Scalable Ethereum Virtual
+Machine (SEVM) allows Redbelly Network to support a diverse ecosystem of smart contracts, dApps,
+tools, and service providers with the underlying security and efficiency of the Redbelly blockchain.
+
+This optimisation focuses on reducing the number of times each individual transaction undergoes full
+validation across the entire network. In a traditional EVM-based system like Ethereum, a transaction
+is validated when received and then re-validated before execution. The SEVM streamlines this by hav-
+ing a transaction validated initially when proposed and then the block containing it is validated when
+consensus is reached. This reduces the total number of full validations performed on each transaction
+network-wide.
+
+Maintaining EVM compatibility is of paramount importance for a blockchain seeking to serve the Real
+World Asset market. By adopting the Ethereum Virtual Machine, Redbelly immediately gains access
+to a vast and mature ecosystem. This includes the largest pool of developers already proficient in the
+Solidity programming language, significantly lowering the barrier to entry for building RWA-centric
+applications. Furthermore, EVM compatibility allows the blockchain to leverage the extensive array of
+existing standards, tools, libraries, and infrastructure already developed for the Ethereum ecosystem,
+accelerating development and reducing costs.
+
+Beyond development advantages, EVM compatibility fosters crucial interoperability with the Ethereum
+network and other EVM-compatible chains. This interconnectedness is particularly valuable for RWAs,
+which may need to interact with decentralised finance (DeFi) protocols or other on-chain services. The
+potential for seamless integration can attract greater liquidity and a larger user base from the estab-
+lished Ethereum ecosystem, driving faster adoption of Redbelly Network’s solutions for tokenising and
+managing real-world assets.
+
+In addition, Redbelly Network implements a fixed unit gas price in USD terms of $0.000000476190476
+A native transfer on Redbelly costs 21000 gas but only US$0.01. This ensures predictability of costs
+for RWA Issuers deploying and operating on the network.
+
+
+
+
+                                                   7
+4.2    RWA APIs & SDKs
+To achieve our vision, it is not enough to simply build a RWA capable blockchain. We also need
+to provide the means for asset issuers and investors (including AI agents) to interact with tokenised
+RWAs in a compliant way.
+
+To this end, Redbelly Network offers a suite of APIs, SDKs, and other tools that allow RWA Issuers
+to seamlessly tokenise their assets with embedded compliance assurance, including linking the legal
+contracts that define the assets with the means to perform the rights and obligations defined there-
+within. The network’s compliance primitives are designed to meet compliance requirements for real
+world rules, use real world data, and enable real world people and businesses to participate.
+
+For identity and credentialing requirements, we offer an Onboarding and Eligibility SDK which allows
+RWA Issuers to program service-level eligibility requirements into their onboarding flows. This SDK
+is powered by a verifiable credential data model based on W3C and Iden3. In this model, user data is
+kept at the edge and is not duplicated across each service provider which would create many honeypots
+of sensitive data. It leverages zero knowledge proofs as a means to preserve privacy and confidentiality
+whilst ensuring provability. The Onboarding and Eligibility SDK effectively provides RWA Issuers on
+the network with a near zero marginal cost identity verification and credentialing service, significantly
+reducing their cost to serve.
+
+For policy and governance, RWA Issuers can leverage our Policy SDK. This SDK allows RWA Issuers
+to program custom policy logic into their assets or leverage templates. These policy artefacts are
+deployed as smart contracts on the network and offer a near zero marginal cost method of policy
+enforcement.
+
+For digesting the off-chain real world data required to make compliant asset tokenisation use cases
+viable, RWA Issuers can leverage our First Party Oracle SDK, which allows them to either set up
+their own first party data feeds into their smart contracts or leverage other first party oracles already
+deployed on the network.
+
+By being API and SDK led, we are positioning Redbelly Network as enabling “AI-first” user expe-
+riences. The APIs consumed by AI agents will usher in completely novel ways of interacting with
+financial products and services, delivering a 10x better user experience, eliminating the clunky user
+experiences typically associated with web3.
+
+
+4.3    Collateral and Liquidity Protocol
+To enable a programmable capital market, Redbelly Network requires collateral and liquidity to power
+many of the financial services on the network. Collateral plays a crucial role. It can be used to secure
+the network, as well as provide liquidity to RWA Issuers and Investors.
+
+Whilst Bitcoin is the world’s most liquid digital asset, it mostly sits idle in wallets, representing a
+vast pool of unproductive capital. Redbelly Network looks to tap that pool of unproductive capital
+by offering BTC holders a seamless and secure way to participate in our burgeoning RWA ecosystem
+and earn yields on their otherwise idle asset.
+
+The solution natively bridges BTC onto our network using threshold signatures run by the network’s
+nodes. Beyond simply bringing Bitcoin onto our network, our protocol strategically leverages its in-
+herent security and market depth to enhance the resilience and stability of our ecosystem. Bridged
+BTC can be utilised for staking on network nodes, directly reinforcing the security of our consensus
+mechanism and disincentivising malicious activity.
+
+Furthermore, restaking extends this security layer to other critical network functions such as verifiable
+credential issuers, oracle providers, and AI services. This interconnected security model, powered by
+the economic incentives of Bitcoin holders, fosters a high degree of trust and reliability across our
+
+
+                                                   8
+entire infrastructure.
+
+This substantial pool of bridged Bitcoin serves multiple crucial functions within the Redbelly ecosys-
+tem, designed to directly benefit RWA issuers in tangible ways. Firstly, it provides robust, high-quality
+backing for native stablecoins utilised on the platform or serves as readily acceptable collateral within
+integrated lending and borrowing protocols. This capability is vital for ensuring reliable, low-volatility
+settlement mechanisms for RWA transactions and potentially offering asset issuers access to more ef-
+ficient, competitively priced borrowing rates against their own tokenised assets, thereby improving
+capital efficiency.
+
+Secondly, and critically for asset distribution, this deep, institutional-grade liquidity pool can signifi-
+cantly facilitate secondary market trading for RWA tokens issued on Redbelly. By providing a readily
+available source of value for market makers and institutional traders, it helps to enhance distribution,
+tighten bid-ask spreads, reduce slippage, and ultimately improve price discovery for the issuer’s assets,
+making them more attractive to a wider range of investors.
+
+By unlocking this vast pool of capital in this way, we are not only laying a robust foundation for a truly
+functional and programmable capital market, but also improving the “exchange of value” property of
+money that Bitcoin has thus far been unable to serve due to its volatility.
+
+
+
+
+                                                    9
+5     Tokenomics
+The Redbelly Network is powered by the native Redbelly Network Coin (RBNT), which has a fixed
+supply of 10,000,000,000. The coin is used in core parts of the network to power its cryptoeconomic
+dynamics. These include transaction fees, staking, sharding, governance, and rewards and incentives.
+These activities are described in more detail in the table below.
+
+5.1   Uses of the Coin
+
+
+
+
+                                                10
+In addition, the table below describes how each of the key entities will use the coin to interact with
+the system through the key activities described above.
+
+
+
+
+                                                 11
+5.2    Allocations
+Furthermore, the allocations at launch for the native Redbelly coin are detailed in the table below.
+These allocations are subject to governance, which is described in the final section of this paper.
+
+
+
+
+5.3    Token release Schedule
+Finally, the token release schedule for the native Redbelly coin is detailed in the table below. The
+“First Month” column refers to the number of calendar months following the listing on a public mar-
+ket. Tokens unlock each second, commencing from the “First Month” column described below, on the
+same calendar day that the public market listing occurred. For example, if the token was first listed
+on the 15th day of a month, the Private Sale tokens will unlock each second from the 15th day of the
+calendar month that occurs 2 months after the public listing event. If there is no equivalent calendar
+day in the “First Month” (for example if the First Month has fewer days than the calendar month
+that the token was first listed in), it will instead fall on the last day of the First Month.
+
+Vesting will complete on the last respective day of the “Last Month” column detailed below. In the
+previous example of the Private Sale tokens, all tokens will be vested by the 15th day of the same
+calendar month 14 months after the public listing event.
+
+Note that the Ecosystem Development, and reserve allocations may also be subject to a custom token
+release schedule, as offered at the time.
+
+
+
+                                                 12
+6     Ecosystem Governance
+There are several key entities relevant to the governance of The Redbelly Network, these are listed
+below:
+
+    • The Redbelly Network Governance DAO
+    • Redbelly Network Pty Ltd
+
+    • Governance Participants
+    • Governor Node Operators
+    • Candidate Node Operators
+
+The Redbelly Network Governance DAO is a decentralised autonomous organisation that operates
+independently from Redbelly Network Pty Ltd. The Redbelly Network Governance DAO is a not-for-
+profit, community organisation focused on protocol governance, token dynamics, ecosystem support
+and administration, and ecosystem wide economic and policy decision making.
+
+Redbelly Network Pty Ltd is a private company registered in Australia whose sole purpose is to focus
+on layer-1 development of the Redbelly Protocol and enabling the widespread adoption of Redbelly
+blockchain technology in the real world. The Foundation and company collaborate from time to time
+on innovative projects and initiatives to accelerate and maximise the value to the wider Redbelly
+ecosystem.
+
+Whilst The Redbelly Network is in its bootstrapping phase, governance functions (excluding treasury
+management) will be performed by Redbelly Network Pty Ltd until such time as The Redbelly Network
+Governance DAO has been developed and the governance transition plan, as detailed in the roadmap,
+has been completed.
+
+The main responsibilities of network governance are listed in the table below.
+
+
+
+1 It is a condition of release that a Team token holder is either actively employed by the Redbelly group of companies,
+
+or is engaged by Redbelly to perform services
+
+
+                                                          13
+6.1    Ecosystem Governance Responsibilities
+
+
+
+
+7     Conclusion
+The tokenisation of Real World Assets is not merely an emerging trend; it will serve as the cornerstone
+of a fundamental reshaping of global financial markets. Redbelly Network stands at the forefront
+of this transformation. While existing blockchains have faltered in delivering on the requirements of
+orderly markets, Redbelly Network offers a definitive solution.
+
+Our accountable layer 1 blockchain, low cost compliance primitives, and collateral and liquidity pro-
+tocols, provide the necessary ingredients for a fully unbundled, programmable capital market essential
+for real world asset tokenisation and intelligent finance.
+
+By leveraging Redbelly Network, asset issuers can slash capital costs, vastly expand distribution, and
+programmatically embed compliance assurance at near zero cost. In addition, AI agents can leverage
+the transparent, programmatic, and verifiable constraints afforded by our infrastructure required to
+build trust in their actions.
+
+Redbelly Network is not just building technology; we are architecting the trustworthy foundation for
+a future where financial services are more intelligent, interconnected, and ultimately contribute to
+equal economic opportunity for all. We are actively building this future, inviting pioneers to join us
+in realising the full potential of an accountable, AI-driven financial world.
+
+
+
+
+                                                  14
+8    References
+[1] Crain, Gramoli, Larrea, Raynal. DBFT, Proceedings of the 17th IEEE International Symposium
+on Network Computing and Applications 2018.
+http://redbellyrw.cluster021.hosting.ovh.net/pubs/DBFT-preprint.pdf
+
+[2] Bertrand et al. Compositional Verification of Byzantine Consensus. HAL 03158911, 2021.
+https://hal.archives-ouvertes.fr/hal-03158911/document
+
+[3] Tennakoon, Hua, Gramoli. Smart Redbelly Blockchain: Reducing Congestion for Web3. IEEE
+International Parallel and Distributed Processing Symposium (IPDPS), 2023.
+https://redbelly.network/research/IPDPS23-SmartRedbelly.pdf
+
+[4] Ekparinya et al. The Attack of the Clones against Proof-of-Authority. Proceedings of the Network
+and Distributed Systems Security Symposium, Internet Society, 2020.
+https://www.ndss-symposium.org/ndss-paper/the-attack-of-the-clones-against-proof-of-authority/
+
+[5] Crain, Natoli, Gramoli. Red Belly: A Secure, Fair and Scalable Open Blockchain. Proceedings of
+the 42nd IEEE Symposium on Security and Privacy S&P, 2021.
+https://drive.google.com/drive/u/0/folders/1 Dz5r8EvJvR I1xIem9QutK6n wzz7lw
+
+[6] Ranchal-Pedrosa, Gramoli. ZLB: A Blockchain to Tolerate Colluding Majorities. 54th Annual
+IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), 2024.
+https://gramoli.github.io/pubs/DSN24-ZLB.pdf
+
+[7] Gramoli, Lu, Tang, Zarbafian. AOAB: Optimal and Fair Ordering of Financial Transactions. 54th
+Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), 2024.
+https://gramoli.github.io/pubs/DSN24 AOAB preprint.pdf
+
+[8] Zarbafian, Gramoli. Lyra: Fast and Scalable Resilience to Reordering Attacks in Blockchains. 37th
+IEEE International Parallel & Distributed Processing Symposium (IPDPS), 2023.
+https://gramoli.github.io/pubs/IPDPS23-Lyra.pdf
+
+
+
+
+                                                 15
+

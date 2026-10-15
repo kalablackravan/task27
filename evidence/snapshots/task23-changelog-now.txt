@@ -1,0 +1,81 @@
+Skip to content
+What Is Actually In Force
+Redbelly Community DAO
+What is in force now
+Changelog
+Disputed
+Voting power
+Not on Snapshot
+Evidence
+Method
+SOURCES AS OF 2026-08-01 . JUDGMENTS REVIEWED 2026-08-01
+What is actually in force, and what only looks like it.
+
+Constitution v1.2 was ratified in September 2025 and has not been re-ratified since. 15 structural decisions have passed on Snapshot, plus 4 changes that never reached a vote at all. 3 of them passed and were never applied. This page says which is which, and shows the record for each.
+
+15
+structural proposals on Snapshot
+3
+passed but NOT applied
+4
+changes that never reached a vote
+20
+proposals deleted from the record
+THE ANSWER FIRST
+The current rule on every structural question
+
+Read this section alone and you know today's rules. Each answer cites the clause it rests on, or says plainly that no clause exists.
+
+Who may vote, and is there a whitelist?
+
+Anyone holding RBNT may vote. voteValidation has been set to any for the entire life of the space, and all 30 proposals carry validation any. A whitelist strategy exists and contributes 1 point of voting power, but it restricts nobody: on the most recent proposal 15 of 27 voters were not on it and cast 26.7 percent of the voting power. The June 2026 vote to remove it passed and was never applied, which changes nothing in practice.
+
+Section 2.3 Voting Power, as observed against the live space configuration.
+How long does a vote run?
+
+About 5 days for ordinary proposals and 3 days for elections, by convention only. Nothing enforces it: voting.period was never written to the space configuration, so each window is set by hand and durations range from 95.99 to 140.41 hours. The constitution sets 5 days for constitutional amendments only, in Section 9.
+
+Section 9 for amendments. No clause governs ordinary proposals.
+Is there a quorum?
+
+No. The word quorum appears zero times in the ratified constitution, and quorum is 0 on all 30 proposals. There is no turnout floor and no minimum participation threshold. Section 9 requires majority approval by token-weighted vote for amendments, and nothing sets any bar for ordinary proposals.
+
+Section 9. No quorum clause exists.
+Who is the leadership?
+
+The High Council seats elected in July 2026 are Buffy, NekoyaManeki and Light. The November 2025 Leadership document, still the only leadership document published, lists a different and larger 4-person High Council of Buffy, Appie, Mark and Ben, plus 10 pod leaders and 5 vacancies. That document is out of date and has not been replaced.
+
+Section 2 Governance Structure, which the July 2026 amendment changed without a published version update.
+What are the working groups called, and how many are there?
+
+Five pods: Marketing, Builder/Develop, Researcher, Community and Partnerships. The September 2025 consolidation did not carry. The word guild persists informally, including inside the constitution's own Section 4.1, but it is nowhere defined.
+
+Section 3 Working Groups (Pods), unamended.
+Can the treasury fund new work?
+
+No. New treasury-funded initiatives are suspended until a future governance vote resumes them. Existing approved obligations continue.
+
+Section 6.2 Budgeting, suspended in operation by the June 2026 vote.
+What voting method is used?
+
+It varies per proposal, because no default is set. Across 30 proposals: basic 21, weighted 6, single-choice 1, ranked-choice 1, copeland 1. Quadratic voting has never been used despite being reported as adopted.
+
+No clause. The constitution specifies no voting method beyond Section 9's token-weighted majority for amendments.
+Which document is authoritative?
+
+The ratified Constitution v1.2 PDF in the DAO Resources section. The live Notion page carries the same version number but has diverged from it, including a second voting venue in Section 4.1 that was never ratified. Where the two disagree, the PDF is the text the DAO actually voted on.
+
+Section 9, which requires version control and public publishing for each update.
+WHY A PASSED VOTE IS NOT THE SAME AS A RULE
+The implementation test, and anyone can run it
+
+A decision requiring a Snapshot configuration change is implemented only if a signed settings message postdates it and contains the change.
+
+The last time this DAO changed its Snapshot configuration was 2026-01-28 00:13:53 UTC. Any config-requiring decision dated after 2026-01-28 00:13:53 UTC is provably unimplemented. That covers every proposal from 2026-03-01 onward.
+
+Every configuration change is an EIP-712 signed message pinned to IPFS, so the ledger cannot be edited after the fact. There are 18 of them. That is what turns "was this applied" from an opinion into a query.
+
+VERIFY IT YOURSELF
+messages(where: {space: "rbnt.eth", type: "settings"}) on hub.snapshot.org/graphql, then fetch each IPFS body.
+Built for the Redbelly Community DAO Task Board.
+30 proposals indexed . 18 signed config changes . sources as of 2026-08-01
